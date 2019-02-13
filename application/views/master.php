@@ -36,7 +36,7 @@
 	<script src="<?= base_url() ?>assets/js/helper-dist.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 	<script src="<?= base_url('assets/js/iziModal.min.js') ?>"></script>
-	<script src="http://momentjs.com/downloads/moment.min.js"></script>
+	<script src="<?= base_url('assets/js/moment.min.js')?>"></script>
 	<script>
 		$(document).on("change","select[name='idiom']",function(){
 			if($(this).val()!=="es"){
