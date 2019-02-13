@@ -36,7 +36,9 @@ $noches=(int)$resultado->format('%R%a');
 			</div>
 			<?
 			foreach ($habitaciones as $habitacion) {
+					if(count($habitacion->rates)!===0){
 
+					
 				?>
 				<div class="col-12 bg-white p-t-30 p-r-30 p-l-30 p-b-30 m-b-20">
 					<div class="row">
@@ -111,6 +113,7 @@ $noches=(int)$resultado->format('%R%a');
 						</div>
 					</div>
 					<?
+				}
 				}
 				?>
 			</div>
