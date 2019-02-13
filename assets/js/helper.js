@@ -1,8 +1,8 @@
 class Help{
 	
 	constructor(){
-	this.urls='http://localhost/hotel/';
-	//this.urls="https://agenciapegasus.com.mx/hotel/";
+	//this.urls='http://localhost/hotel/';
+	this.urls="https://agenciapegasus.com.mx/hotel/";
 	}
 	izziFrame(e){
 	$(e).addClass("iziModal").iziModal({
@@ -30,12 +30,15 @@ class Help{
 	}
 	sendform(url,form,callback){
 		console.log($(form).serialize());
-		$.post(this.url+url,$(form).serialize(),function(resp){
+		$.post(this.urls+url,$(form).serialize(),function(resp){
 			callback(JSON.parse(resp));
 		})
 	}
 	togglemenu(){
 		$(".menu-movil-slider").toggle("linear");
+	}
+	goto(idioma){
+		location.href=this.urls+"confirmarreservacion/"+idioma;
 	}
 }
 class Home extends Help {
@@ -62,7 +65,8 @@ $(function(){
 	$(".izimodal").each(function(i,e){
             home.izziFrame(e);
     });
-    $('input[llc="date"]').dateDropper();
+    
+  
 })
 //enventos en los botones
 $(document).on("click","form#cotizador div[llc='envi']",function(){
@@ -78,11 +82,13 @@ $(document).on("click",'strong[llc="detalles_habitacion"]',function(){
 	$("#"+$(this).attr("llk")).iziModal("open");
 })
 $(document).on("click",'button[llc="addcart"]',function(){
+	var idioma=$(this).attr("idioma");
 	home.senddata('addcar',$(this).attr("lli"),function(res){
 		if(res["pass"]===0){
 		toastr.danger(res["error"], 'Error!');
 		}else{
 			toastr.success(res["mensaje"], 'Exito!');
+			home.goto(idioma)
 		}
 	})
 })
@@ -98,9 +104,11 @@ $(document).on("click",'button[llc="deleteroom"]',function(){
 
 	})
 })
-$(document).on("change",'input[llc="date"]',function(){
-	var fecha1 = moment($("input[name='checkin']").val());
-	var fecha2 = moment($("input[name='checkout']").val());
+function resnoches(fecha1,fecha2){
+
+
+	var fecha1 = moment(fecha1);
+	var fecha2 = moment(fecha2);
 	var noches=0;
 	noches= fecha2.diff(fecha1, 'days');
 	if(noches<=0){
@@ -108,4 +116,5 @@ $(document).on("change",'input[llc="date"]',function(){
 	}
 	$("input[name='noches']").val(noches);
 
-})
+}
+

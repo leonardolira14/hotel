@@ -1,5 +1,5 @@
 <?
-//vdebug($resultados);
+
 $habitaciones=$resultados->hotelogix->response->hotels[0]->roomtypes;
 
 $fecha1 = new DateTime($resultados->hotelogix->request->data->stay->checkindate);
@@ -36,7 +36,7 @@ $noches=(int)$resultado->format('%R%a');
 			</div>
 			<?
 			foreach ($habitaciones as $habitacion) {
-					if(count($habitacion->rates)!==0){
+					if($habitacion->rates!==""){
 
 				?>
 				<div class="col-12 bg-white p-t-30 p-r-30 p-l-30 p-b-30 m-b-20">
@@ -105,7 +105,7 @@ $noches=(int)$resultado->format('%R%a');
 										<strong class="text-golden text-2" llk="<?= $habitacion->key ?>" llc="detalles_habitacion" >Ver mas detalles</strong>
 									</div>
 									<div class="col-12 m-t-30 text-center">
-										<button llc="addcart" lli="<?= $habitacion->rates[0]->id?>" class="btn btn-secondary">Seleccionar</button>
+										<button llc="addcart" idioma="<?=$idioma?>" lli="<?= $habitacion->rates[0]->id?>" class="btn btn-secondary">Seleccionar</button>
 									</div>	
 								</div>
 							</div>

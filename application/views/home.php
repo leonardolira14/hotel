@@ -16,11 +16,11 @@
 	<form id="form_busqueda" method="post" action="<?= base_url('welcome/busqueda_habitacion')?>" class="row form-group">
 		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T1 ?></label>
-			<input data-format="Y-m-d" data-fx-mobile="true" data-max-year="2030" llc="date" type="text" data-lang="es" name="checkin" placeholder="CHECK IN" class="form-control">
+			<input placeholder="CHECK IN"  llc="date" autocomplete="off" type="text"  name="checkin"   class="form-control">
 		</div>
 		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T2 ?></label>
-			<input data-format="Y-m-d" llc="date" data-fx-mobile="true" data-max-year="2030" type="text" data-lang="es"  name="checkout" placeholder="CHECK OUT" class="form-control">
+			<input   placeholder="CHECK OUT" llc="date"  autocomplete="off" type="text"  name="checkout"  class="form-control">
 		</div>
 		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T3 ?></label>
@@ -90,7 +90,31 @@
 	</form>
 </div>
 <script>
-	$('input[llc="date"]').dateDropper();
+	$(document).ready(function(){
+		var dat=new Date();
+		$('input[llc="date"]').datepicker({
+		    dateFormat: 'yyyy-mm-dd',
+		    language: 'es',
+		    minDate: new Date(dat.getFullYear(),dat.getMonth(),dat.getDate()+1),
+		
+	})
+	$('input[name="checkin"]').datepicker({
+		onSelect: function (formattedDate, date, inst) {
+			date.setDate(date.getDate() + 1);
+			console.log(date)
+			if((date.getMonth()+1)<10){
+			mes="0"+(date.getMonth()+1);
+			}else{
+				mes=date.getMonth()+1;
+			}
+			$('input[name="checkout"]').val(date.getFullYear()+"-"+mes+"-"+date.getDate())
+		}
+	})
+	
+})
+	
+
+	
 </script>
 <div class="container">
 	<div class="row  m-t-30 m-b-10">
