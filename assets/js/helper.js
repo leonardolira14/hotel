@@ -1,7 +1,8 @@
 class Help{
 	
 	constructor(){
-	this.urls='http://localhost/hotel/';
+	//this.urls='http://localhost/hotel/';
+	this.urls="https://agenciapegasus.com.mx/hotel/";
 	}
 	izziFrame(e){
 	$(e).addClass("iziModal").iziModal({
