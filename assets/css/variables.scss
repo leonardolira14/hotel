@@ -1,0 +1,40 @@
+@font-face {
+font-family: "Bring";
+src: url("../fonts/Bring_Heart.ttf") format("truetype");
+}
+@font-face {
+font-family: "akzlig";
+src: url("../fonts/AkzidenzGrotesk-LightCond.otf") format("truetype");
+}
+@font-face {
+font-family: "avb";
+src: url("../fonts/AvenirLTStd-Book.otf") format("truetype");
+}
+@font-face {
+font-family: "fedn";
+src: url("../fonts/FedraSerifB-NormalTF.otf") format("truetype");
+}
+@font-face {
+font-family: "birds";
+src: url("../fonts/Birds_of_Paradise.ttf") format("truetype");
+}
+@font-face {
+font-family: "trxt";
+src: url("../fonts/Trixie-Text.otf") format("truetype");
+}
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50,55,60,65,70, 75,80,85,90,95,100,110,120,130,140);
+$sides: (top, bottom, left, right);
+$colorgris1:#424243;
+$colorazul1:#051c48;
+$colordorado1:#ce9f51;
+$colorrojo:#c70039;
+$tpab:'Bring';
+$tpak:'akzlig';
+$tpav:'avb';
+$tpfedn:'fedn';
+$tptrx:'trxt';
+$tpx:'birds';
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1140px;

@@ -1,0 +1,538 @@
+@import 'variables';
+
+*{
+	padding:0;
+	margin:0;
+}
+
+@each $space in $spaceamounts {
+	@each $side in $sides {
+		.m-#{str-slice($side, 0, 1)}-#{$space} {
+			margin-#{$side}: #{$space}px !important;
+		}
+		.p-#{str-slice($side, 0, 1)}-#{$space} {
+			padding-#{$side}: #{$space}px !important;
+		}
+	}
+}
+.gr-2{
+	height: 2px;
+}
+.gr-3{
+	height: 3px;
+}
+.gr-4{
+	height: 4px;
+}
+.text-popup{
+	font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: $tpfedn;
+}
+.text-font-1-5{
+	font-size: 1.5rem;
+	@media screen and (max-width: $md) {
+		font-size: 1rem;
+	}
+}
+.iframe-res{
+	width: 100% !important;
+	height: 700px !important;
+	& iframe{
+		width: 100% !important;
+		height: 700px !important;
+	}
+}
+.centrar{
+	margin-left: auto;
+	margin-right: auto;
+}
+.ray-dor{
+	width: 100%;
+	background: $colordorado1;
+
+}
+.ray-blue{
+	width: 100%;
+	background: $colorazul1;
+	height: 6px;
+    border-radius: 10px;
+}
+.iconos{
+	width: 30px;
+}
+.iconos4{
+	width: 40px;
+}
+.carousel-control-next, .carousel-control-prev{
+	position:relative !important;
+}
+.iconos5{
+	width: 50px;
+	height: 100px;
+}
+.bgazul{
+	background: $colorazul1;
+}
+.text-blue{
+	color:$colorazul1 !important;
+}
+.text-golden{
+	color:$colordorado1 !important;
+}
+.text-1{
+	font-family:$tpak;
+}
+.text-2{
+	@media screen and (max-width: $md) {
+		text-align: center;
+	}
+	font-family:$tpav;
+	& h4{
+		@media screen and (max-width: $md) {
+			font-size: 1rem;
+		}	
+	}
+}
+.text-3{
+	font-family:$tpfedn;
+}
+.text-4{
+	font-family:$tptrx;
+}
+.banner-menu{
+	max-height: 580px;
+	@media screen and (max-width: $md) {
+		max-height: 200px;
+	}
+	& img{
+		max-height: 580px;	
+		@media screen and (max-width: $md) {
+			max-height: 200px;	
+		}
+	}
+}
+.banner-min{
+	max-height: 380px;
+	@media screen and (max-width: $md) {
+			max-height: 100px;	
+		}
+	& img{
+		max-height: 380px;
+		@media screen and (max-width: $md) {
+			max-height: 100px;	
+		}
+	}
+	
+}
+.banner-sup{
+	max-height: 480px;
+	@media screen and (max-width: $md) {
+		max-height: 180px;
+	}
+	& img{
+		max-height: 480px;	
+		@media screen and (max-width: $md) {
+			max-height: 180px;
+		}
+	}
+	
+}
+.f-700{
+	font-weight: 700;
+}
+.bg-cotizador{
+	background: transparent url("../img/fondo-cotizaciones.jpg")center center no-repeat;
+	background-size:cover; 
+}
+.psa{
+	border-bottom:2px solid $colordorado1;
+	
+	& .btn-secondary{
+		background:$colordorado1;
+		border-color:$colordorado1;
+		border-radius:0px;
+		padding-top:1rem;
+		padding-bottom:1rem;
+	}
+	& .btn-primary{
+		background:$colorazul1;
+		border-color:$colordorado1;
+		border-radius:0px;
+		padding-top:1rem;
+		padding-bottom:1rem;
+	}
+	& .form-group {
+		margin-bottom: 0rem;
+	}
+}
+.fondo-menu{
+	background: url(../img/fondo-menu.jpg) no-repeat center center;
+	background-size:cover;
+	min-height: 100%;
+	height: 650px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.btnse-spa{
+	border-color:transparent;
+	background: url(../img/Down-Arrow.png) no-repeat 96% center;
+	background-size:10%;
+	appearance: none;	
+	margin-top:10px;
+}
+.list-menudsk{
+	font-family:$tpfedn;
+	font-size:80%;
+	& a{
+		color:$colorazul1;
+		text-decoration:none;	
+		&:hover{
+			color:$colordorado1;	
+		}
+		
+	}
+}
+.img-hhome{
+	margin-top:20px;
+	height:600px;
+	background:transparent url('../img/HOME_Imagen.jpg') center center no-repeat;
+	background-size:100% 100%;
+	@media screen and (max-width: $md) {
+		height:200px;
+	}
+}
+.btn-secondary{
+		background:$colordorado1;
+		border-color:$colordorado1;
+		border-radius:0px;
+		padding-top:.5rem;
+		padding-bottom:.5rem;
+	}
+.form-disp{
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	background:transparent url('../img/fondo-reservaciones.jpg') center center no-repeat;
+	background-size:cover;
+	& input,select{
+		font-family:$tpav;
+		border-radius: 0px !important;
+	}
+}
+.sec-valor{
+background:transparent url('../img/Home_Imagen3.jpg') center center no-repeat;
+	background-size:cover;
+}
+.cont-1suites{
+	@media screen and (max-width: $md) {
+			height:600px;
+		}
+}
+.cont-suites{
+	padding: 0 !important;
+	max-height:505px;
+	@media screen and (max-width: $md) {
+			height:600px;
+		}
+	&.row{
+		height:500px;
+		@media screen and (max-width: $md) {
+			height:200px;
+		}
+	}
+	& .cont-img{
+		position: relative;
+		height:100%;
+		left:0;
+		top:0;
+		width: 20%;
+		transition:all 1s;
+		@media screen and (max-width: $md) {
+			width: 50%;
+			&:last-child{
+				width: 100%;
+			}
+		}
+
+		&.hover{
+			width: 24%;
+			transition:all 1s;
+		}
+		&.aut{
+			transition:all .6s;
+			width: 19%;
+		}
+		& figure{
+			background-size: cover;
+			background-position: center center;
+		}
+		& .text-habita{
+			text-align: center;
+			font-size: 1.4em;
+			width: 60%;
+			margin: 0 auto;
+			color:#fff;
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform:translateY(-50%) translateX(-50%);
+			font-family: $tpfedn;
+			@media screen and (max-width: $md) {
+				width:100%;
+				& img{
+					width: 50%;
+				}
+			}
+		}
+	}
+}
+.footer{
+	background: $colorazul1;
+	& .btn-redes{
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform:translateX(-50%) translateY(-50%);
+		& img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+.bg-caracteristicas{
+	& .cuadro-central{
+		padding:70px 50px;
+		@media screen and (max-width: $md) {
+			padding:5px 5px;
+			
+		}
+		& h4{
+				@media screen and (max-width: $md) {
+					font-size: 1rem;
+					text-align: left;
+				}
+			}
+		& .lista-amenidades{
+			padding:30px 50px;
+			@media screen and (max-width: $md) {
+				padding:10px 20px;
+			
+			}
+			& ul{
+				text-align: left;
+				@media screen and (max-width: $md) {
+					margin: 0 auto;
+				    width: 50%;
+				    display: block;
+				}
+			}
+			& h4{
+				display: flex;
+    			justify-content: center;
+				@media screen and (max-width: $md) {
+					font-size: 1rem;
+					display: flex;
+    			justify-content: center;
+			
+				}
+			}
+			
+		}
+
+	}
+	
+}
+.titulos-habitaciones{
+	font-family:$tpfedn;
+	color:$colorazul1;
+	& h2{
+		font-size: 3rem;
+		@media screen and (max-width: $md) {
+			font-size: 2rem;
+		}
+	}
+}
+.cont-modalgalery{
+	background: transparent url("../img/fondo-dorado-popup.jpg") center center no-repeat;
+	background-size: 100%;
+	@media screen and (max-width: $md) {
+		background-size: cover;
+	}
+	
+	& a,& a:hover{
+		color:$colorazul1;
+		text-decoration: none;
+
+	}
+}
+.menu-web{
+	@media screen and (max-width: $md) {
+		display: none;
+	}
+}
+.menu-movil{
+	@media screen and (min-width: $md) {
+		display: none;
+	}	
+}
+.menu-movil-slider{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+	background:$colorazul1;
+	display: none;
+	z-index: 100;
+	& .head-menu{
+		background: $colorazul1;
+		color:#fff;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		& .btn-close-menu{
+			font-weight: 700;
+			font-size: 1.5rem;
+			color:rgba(255,255,255,0.6);
+		}
+	}
+	& ul{
+		width: 100%;
+		& li{
+			list-style: none;
+			border-bottom:1px solid rgba(255,255,255,0.5);
+			& a{
+				display: block;
+				padding: 1rem .5rem; 
+				text-decoration: none;
+				color:#fff;
+			}
+		}
+	}
+}
+.descrip{
+	& h4{
+		@media screen and (max-width: $md) {
+			font-size:1.3rem;
+		}
+	}
+	& p{
+		@media screen and (max-width: $md) {
+			font-size:1.3rem;
+		}
+	}	
+}
+.fondo-reservaciones{
+	background:transparent url('../img/fondo-cotizaciones.jpg') center center no-repeat;
+	background-size: cover;
+	& input,& select,& textarea{
+		border-radius: 0px !important;
+		font-family: $tpav;
+		background: rgba(0,0,0,0.1);
+		color:#000;
+	}
+	& select.divisa{
+			background:#fff;
+	}
+}
+.menu-resevaciones{
+	& a{
+		text-decoration: none;
+		color:#fff;
+		font-family: $tpav;
+		padding:0.5rem 0.5rem;
+		border-radius: 1rem;
+		&:hover{
+			color:#fff;
+			background-color: $colordorado1;
+		}
+		&.active{
+			color:#fff;
+			background-color: $colordorado1;
+		}
+	}
+}
+a{
+	&.btn{
+		border-radius: 0px !important;
+		&:hover{
+			color:#fff;
+			background: #5a6268;
+		}
+	}
+}
+
+
+label.containert{
+	display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: $tpav;
+  color:$colorazul1 !important;
+  user-select: none;
+	&:hover{
+		& input{
+			& ~ .checkmark{
+				background-color: #ccc;
+			}
+			
+		}
+	}
+	& input{
+			position: absolute;
+			  opacity: 0;
+			  cursor: pointer;
+			  height: 0;
+			  width: 0;
+			  &:checked{
+				& ~ .checkmark {
+					background-color: $colorazul1;
+					&:after{
+						display: block;
+					}
+				}
+			}
+	}
+	& .checkmark{
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  height: 25px;
+	  width: 25px;
+	  background-color: #eee;
+	  &:after{
+	  content: "";
+	  position: absolute;
+	  display: none;
+	  left: 9px;
+	  top: 5px;
+	  width: 5px;
+	  height: 10px;
+	  border: solid white;
+	  border-width: 0 3px 3px 0;
+	  transform: rotate(45deg);
+	  }
+	}
+}
+table{
+	&.montos{
+		 border-color: transparent !important;
+		 & td{
+		 	 border-color: transparent !important;
+		 }
+
+	}
+    border-color: transparent !important;
+    thead{
+    	border-bottom: 5px solid $colordorado1;
+    }
+}
+.alert-danger{
+	border-color: $colorrojo;
+	background: $colorrojo;
+	color:#fff;
+}

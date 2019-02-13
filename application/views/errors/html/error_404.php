@@ -1,0 +1,1 @@
+<img src="<?= base_URL('assets/img/error404.jpg') ?>" style="position: relative;top:0px;left: 0px;width: 100%;height: 100vh;" alt="">
