@@ -6,9 +6,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '127.0.0.1',
+	'hostname' => 'ec2-18-188-195-242.us-east-2.compute.amazonaws.com',
 	'username' => 'root',
-	'password' => '',
+	'password' => 'admyo246',
 	'database' => 'hotel',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
