@@ -150,7 +150,7 @@
 	<div class="container-fluid head-menu">
 		<div class="row">
 			<div class="col-10">
-				<h3>Menu</h3>
+				<h3>Menú</h3>
 			</div>
 			<div class="col-2 btn-close-menu">
 				X

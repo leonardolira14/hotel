@@ -8,7 +8,7 @@
 		<div class="col-12 text-center titulos-habitaciones">
 			<? if($Idioma==="es"){
 				?>
-				<h2>Suite del Marqués </h2>
+				<h2>Suite Marqués </h2>
 				<?
 			}else{
 				?>
@@ -84,12 +84,12 @@
 				<ul>
 					
 					<li>Caja de Seguridad</li>
-					<li>Samart TV con Cable</li>
-					<li>Chapa Electronica</li>
+					<li>Smart TV con Cable</li>
+					<li>Chapa Electrónica</li>
 					<li>AC</li>
-					<li>Télefono</li>
+					<li>Teléfono</li>
 					<li>Wifi de alta velocidad</li>
-					<li>Armario Antigüo</li>
+					<li>Armario Antiguo</li>
 					
 				</ul>
 			</h4>
@@ -101,7 +101,7 @@
 				
 					
 					<li>Suave ropa de cama</li>
-					<li>Escritorio para Comer o Tranajar tranquilamente </li>
+					<li>Escritorio para Comer o Trabajar tranquilamente </li>
 					<li>Kit de Baño</li>
 					<li>Secadora de Cabello</li>
 					<li>Regadera de presión ajustable</li>
@@ -116,14 +116,14 @@
 		<div class="col-9 col-md-11 col-lg-11 col-xl-11 text-white text-2 lista-amenidades">
 			<h4>
 				<ul>
-					<li>Máquina de Cáfe Premium</li>
+					<li>Máquina de Café Premium</li>
 					<li>Selección de amenidades CAVA</li>
 					<li>Vino de la Casa </li>
 					<li>Baño</li>
 					<li>Kit de Baño</li>
 					<li>Secadora de Cabello</li>
 					<li>Batas de baño</li>
-					<li>Pantúflas cómodas</li>
+					<li>Pantuflas comodas</li>
 					<li>Bebidas Premium</li>
 				</ul>
 			</h4>
@@ -172,7 +172,7 @@
 				<ul>
 					
 					<li>Security box</li>
-						<li>Samart TV with Cable</li>
+						<li>Smart TV with Cable</li>
 						<li>Electronic plate</li>
 						<li>AC</li>
 						<li>Telephone</li>
@@ -291,7 +291,7 @@
 							<?
 							if($Idioma==="es"){
 								?>
-Una personalidad clave en la historia de la conquista y evangelización de la Nueva España, fue el líder de los 12 apostoles de México. Pertenenciente a la orden Franciscana inición en el Convento de Mayorga en la Tierra de Campos. En 1523 el Padre General, Fray Francisco de los Ángeles le encomendó pasar con los doce compañeros a evangelizar el Nuevo mundo y el 25 de enero de 1524 llegaron a Puerto Rico y el 13 de mayo tocan tierras de San Juan de Ulúa en Veracruz. Emprendieron viaje hacia Tenochtitlán con la intención de llevar el cristianismo esta ciudad indígena. Considerado como una de las máximas autoridades religiosas iniciales en México, ganó el afecto y admiración del pueblo indígena por quienes tuvo un especial aprecio. Por muchos considerado como el auténtico fundador de la Iglesia Católica de la Nueva España.
+Una personalidad clave en la historia de la conquista y evangelización de la Nueva España, fue el líder de los 12 apóstoles de México. Perteneciente a la orden Franciscana inició en el Convento de Mayorga en la Tierra de Campos. En 1523 el Padre General, Fray Francisco de los Ángeles le encomendó pasar con los doce compañeros a evangelizar el Nuevo mundo y el 25 de enero de 1524 llegaron a Puerto Rico y el 13 de mayo tocan tierras de San Juan de Ulúa en Veracruz. Emprendieron viaje hacia Tenochtitlán con la intención de llevar el cristianismo esta ciudad indígena. <p>Considerado como una de las máximas autoridades religiosas iniciales en México, ganó el afecto y admiración del pueblo indígena por quienes tuvo un especial aprecio. Por muchos considerado como el auténtico fundador de la Iglesia Católica de la Nueva España
 								<?	
 							}else{
 								?>

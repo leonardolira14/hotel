@@ -33,82 +33,159 @@ class Model_Mail extends CI_Model
 	public function enviar_cotizacion($nombre,$correo,$telefono,$evento,$fecha,$personas,$comentarios){
 		$this->email->subject("Envio de cotizacion de Pagina Web");
 		$body='<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-<body>
-	<table class="table">
+		<html lang="en">
+		<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		</head>
+		<body>
+		<table class="table">
 		<thead >
-			<tr class="bg-dark text-white ">
-				<th colspan=2 scope="col " class="text-center">Cotización Solicitada</th>
-			</tr>
+		<tr class="bg-dark text-white ">
+		<th colspan=2 scope="col " class="text-center">Cotización Solicitada</th>
+		</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td>
-					Nombre:
-				</td>
-				<td>
-					'.$nombre.'
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Email:
-				</td>
-				<td>
-					'.$correo.'
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Teléfono/Celular:
-				</td>
-				<td>
-					'.$telefono.'
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Tipo Evento/Ocasión:
-				</td>
-				<td>
-					'.$evento.'
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Fecha:
-				</td>
-				<td>
-					'.$fecha.'
-				</td>
-			</tr>
-			<tr>
-				<td>
-					No. Personas:
-				</td>
-				<td>
-					'.$personas.'
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Comentarios:
-				</td>
-				<td>
-					'.$comentarios.'
-				</td>
-			</tr>
+		<tr>
+		<td>
+		Nombre:
+		</td>
+		<td>
+		'.$nombre.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Email:
+		</td>
+		<td>
+		'.$correo.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Teléfono/Celular:
+		</td>
+		<td>
+		'.$telefono.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Tipo Evento/Ocasión:
+		</td>
+		<td>
+		'.$evento.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Fecha:
+		</td>
+		<td>
+		'.$fecha.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		No. Personas:
+		</td>
+		<td>
+		'.$personas.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Comentarios:
+		</td>
+		<td>
+		'.$comentarios.'
+		</td>
+		</tr>
 		</tbody>
 
-	</table>
-</body>
-</html>';
+		</table>
+		</body>
+		</html>';
+		$this->email->message($body);
+		$this->email->send();
+	}
+	//funcin para enviar el formulario de experiencias
+	public function enviar_leatad($nombre,$_Apellidos,$_telefono,$correo,$pais,$Ciudad,$fecha)
+	{
+		$this->email->subject("Envio de cotizacion de Pagina Web");
+		$body='<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		</head>
+		<body>
+		<table class="table">
+		<thead >
+		<tr class="bg-dark text-white ">
+		<th colspan=2 scope="col " class="text-center">Programa de lealtad</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td>
+		Nombre:
+		</td>
+		<td>
+		'.$nombre." ". $_Apellidos.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Email:
+		</td>
+		<td>
+		'.$correo.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Teléfono/Celular:
+		</td>
+		<td>
+		'.$_telefono.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Pais:
+		</td>
+		<td>
+		'.$pais.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Fecha de Nacimiento:
+		</td>
+		<td>
+		'.$fecha.'
+		</td>
+		</tr>
+		<tr>
+		<td>
+		Ciudad:
+		</td>
+		<td>
+		'.$Ciudad.'
+		</td>
+		</tr>
+		
+		</tbody>
+
+		</table>
+		</body>
+		</html>';
 		$this->email->message($body);
 		$this->email->send();
 	}

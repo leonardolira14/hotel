@@ -99,39 +99,39 @@
 
 					</div>
 				</div>
-				<div class="container">
+				<form class="container" id="experiencias" url="mail/enviar_leatad">
 					<div class="row d-flex justify-content-center ">
 						<div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
 						    <label for="">Nombre/Name</label>
-						    <input type="text" name="nombre" class="form-control" name="nombre" placeholder="Nombre">
+						    <input type="text" class="form-control" name="nombre" placeholder="">
 						 </div>
 						 <div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
 						    <label for="">Apellidos/Last Name</label>
-						    <input type="text" name="apellidos" class="form-control" name="nombre" placeholder="Apellidos">
+						    <input type="text" name="apellidos" class="form-control"  placeholder="">
 						 </div>
 						 <div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
 						    <label for="">Teléfono-celular/Telephone</label>
-						    <input type="text" name="tel" class="form-control" name="nombre" placeholder="Teléfono/Celular">
+						    <input type="text" name="tel" class="form-control"  placeholder="">
 						 </div>
 						 <div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
 						    <label for="">Correo Electrónico/Email</label>
-						    <input type="text" tel="correo" class="form-control" name="nombre" placeholder="Correo Electrónico">
+						    <input type="text"  class="form-control" name="correo" placeholder="">
 						 </div>
 						 <div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
-						    <label for="">Pais/Contry</label>
-						    <input type="text" name="pais" class="form-control" name="nombre" placeholder="Correo Electrónico">
+						    <label for="">País/Contry</label>
+						    <input type="text" name="pais" class="form-control"  placeholder="">
 						 </div>
 						 <div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
 						    <label for="">Ciudad/City</label>
-						    <input type="text" name="ciudad" class="form-control" name="nombre" placeholder="Correo Electrónico">
+						    <input type="text" name="ciudad" class="form-control"placeholder="">
 						 </div>
 						 <div class="col-12 col-md-6 col-xl-6 col-lg-6 form-group">
-						    <label for="">Fecha de Nacimeinto/Birthday</label>
-						    <input type="text" name="fechanacimiento" class="form-control" name="nombre" placeholder="Correo Electrónico">
+						    <label for="">Fecha de Nacimiento/Birthday</label>
+						    <input type="text" name="fechanacimiento" class="form-control"  placeholder="">
 						 </div>
 						 <div class="col-12">
 						 	<p class="text-center">
-							<span class="btn btn-primary">
+							<span llc='envi' class="btn btn-primary">
 								<?if($Idioma==="es"){
 								?>
 								Enviar
@@ -158,7 +158,7 @@
 						 </div>
 						 
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 	</div>

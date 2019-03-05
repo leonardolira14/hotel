@@ -128,10 +128,10 @@
 				<ul>
 					
 					<li>Caja de Seguridad</li>
-					<li>Samart TV con Cable</li>
-					<li>Chapa Electronica</li>
+					<li>Smart TV con Cable</li>
+					<li>Chapa Electrónica</li>
 					<li>AC</li>
-					<li>Télefono</li>
+					<li>Teléfono</li>
 					<li>Wifi de alta velocidad</li>
 					
 				</ul>
@@ -142,7 +142,7 @@
 				<ul>
 					
 					
-					<li>Armario Antigüo</li>
+					<li>Armario Antiguo</li>
 					<li>Suave ropa de cama</li>
 					
 					<li>Kit de Baño</li>
@@ -159,7 +159,7 @@
 		<div class="col-9 col-md-6 col-lg-6 col-xl-6 text-white text-2 lista-amenidades">
 			<h4>
 				<ul>
-					<li>Máquina de Cáfe Premium</li>
+					<li>Máquina de Café Premium</li>
 					<li>Selección de amenidades CAVA</li>
 					<li>Bebidas</li>
 					<li>Baño</li>
@@ -213,7 +213,7 @@
 				<ul>
 					
 					<li>Security box</li>
-					<li>Samart TV with Cable</li>
+					<li>Smart TV with Cable</li>
 					<li>Electronic plate</li>
 					<li>AC</li>
 					<li>Telephone</li>
@@ -327,7 +327,9 @@
 						<div class="col-10 text-justify m-t-30 m-b-50 text-blue text-popup">
 							<? if($Idioma==="es"){
 							?>
-							Misionero franciscano originario de la region de Salamanca en España. Parte del grupo de los “doce apóstoles” de México que arrivaron en 1524. Fue el segundo superior de la provincia del Santo Evangelio y guardián del Convento de México. Al igual que Fray Francisco de Soto, regresó a España en abogacía de los derechos de los indígenas ante el Rey Carlos I, sobre todo por la libertad de algunos escavos. Volvió de España en el año de 1529 trayendo un grupo de 20 religiosos de la misma orden franciscana. El muere en el convento de San Francisco de México en 1553.
+							Misionero franciscano originario de la región de Salamanca en España. Parte del grupo de los “doce apóstoles” de México que arribaron en 1524.
+<p> Fue el segundo superior de la provincia del Santo Evangelio y guardián del Convento de México. Al igual que Fray Francisco de Soto, regresó a España en abogacía de los derechos de los indígenas ante el Rey Carlos I, sobre todo por la libertad de algunos esclavos. Volvió de España en el año de 1529 trayendo un grupo de 20 religiosos de la misma orden franciscana. El muere en el convento de San Francisco de México en 1553.
+
 							<?
 							}else{
 							?>
@@ -402,8 +404,7 @@ convent of San Francisco de México in 1553.
 						<div class="col-10 text-justify m-t-30 m-b-50 text-blue text-popup">
 							<? if($Idioma==="es"){
 							?>
-							Misionero Español que viene de la provincia de San Gsabriel, es el cuarto en número de los doce primeros apóstólicos de la Nueva España. Una vez llegando a la ciudad de México, Fray Juan fue electo como primer guardián del convento de Huexotzingo, do 
-nde dejó memoria entre los indígenas de mucha religión y santidad. Una vez evangelizada la zona, el capitán Pánfilo de Narváez iba a conquistar la Florida y por el celo de la conversión de aquella gente, fue en su compañía fray Juan Sárez, llevando por su compañero a fray Juan de Palos, y alló muriero ambos de hambre. 
+							Misionero español que viene de la provincia de San Gabriel, es el cuarto en número de los doce primeros apostólicos de la Nueva España. Una vez llegando a la Ciudad de México, Fray Juan fue electo como primer guardián del convento de Huejotzingo, donde dejó memoria entre los indígenas de mucha religión y santidad. Una vez evangelizada la zona, el capitán Pánfilo de Narváez iba a conquistar la Florida y por el celo de la conversión de aquella gente, fue en su compañía Fray Juan Suárez, llevando por su compañero a Fray Juan de Palos, los cuales murieron de hambre.
  <?
 							}else{
 							?>
@@ -478,7 +479,7 @@ Palos as his companion, and there he died. hungry.
 						<div class="col-10 text-justify m-t-30 m-b-50 text-blue text-popup">
 							<? if($Idioma==="es"){
 							?>
-							Noveno de los “doce apóstoles”, grupo de franciscanos que llegó a México en 1524, originario franciscano de la provincia de San Gabriel, llegando a la Nueva España su tarea fue crear y ser guardián del convento de Tlaxcala, ayudador de los indígenas, defendiendo los derechos y la situación de pobreza y esclavitud. Fue grande predicador de los indios en su lengua mexicana, mostrando en los sermones el deseo de la salvación de sus almas. El 25 de Junio de 1562 muere en su sano juicio y alabando el santísmo nombre de Jesús, puesto de rodillas en la tierra y de pechos sobre su cama. Su sepulcro se encuentra en el mismo convento de Texcoco. Logra escribir algunos escritos en la lengua nativa mexicana como “Doctrina cristiana o catecismo” “Sermones dominicales de todo el año” Flos Sanctorum traducido en la lengua” y “Preguntas y respuestas cerca de la vida cristiana” 
+							Noveno de los “doce apóstoles”, grupo de franciscanos que llegó a México en 1524, originario franciscano de la provincia de San Gabriel, llegando a la Nueva España su tarea fue crear y ser guardián del convento de Tlaxcala, ayudador de los indígenas, defendiendo los derechos y la situación de pobreza y esclavitud. Fue grande predicador de los indios en su lengua mexicana, mostrando en los sermones el deseo de la salvación de sus almas. <p>El 25 de Junio de 1562 muere en su sano juicio y alabando el santísimo nombre de Jesús, puesto de rodillas en la tierra y de pechos sobre su cama. <p>Su sepulcro se encuentra en el mismo convento de Texcoco. Logra escribir algunos escritos en la lengua nativa mexicana como "Doctrina cristiana o catecismo" "Sermones dominicales de todo el año" Flos Sanctorum traducido en la lengua y "Preguntas y respuestas cerca de la vida cristiana" 
 							<?
 							}else{
 							?>
@@ -557,9 +558,9 @@ answers close to the Christian life &quot;.
 						<div class="col-10 text-justify m-t-30 m-b-50 text-blue text-popup">
 							<? if($Idioma==="es"){
 							?>
-							Nació en Zamora, España, ingresó a la orde franciscana a los 17 años y viaja a México en el grupo de los “doce apostoles” de la Nueva españa  en el año de 1524. 
-							<br>
-							 De 1527 a 1529 vive en Guatemala estudiando la fundación de las misiones y posteriormente regresa al convento de Huexotzingo, amparando a los indios contra los abusos de Nuño de Guzmán  y es acusado por intentar la independeica de Nueva España, en forma de Estado indígena. En 1530, pasa al convento de Tlaxcala y contribuye a la fundación de la Ciudad de Puebla de los Ángeles en 1531. En 1555 escribe una carta célebre al emperador contra Las Casas en defensa de la Conquista. Residió los ultimos años de su vida en la capita donde fallece en 1565.
+							Nació en Zamora, España, ingresó a la orden franciscana a los 17 años y viaja a México en el grupo de los “doce apóstoles” de la Nueva España en el año de 1524. 
+<p>De 1527 a 1529 vive en Guatemala estudiando la fundación de las misiones y posteriormente regresa al convento de Huejotzingo, amparando a los indios contra los abusos de Nuño de Guzmán y es acusado por intentar la independencia de Nueva España, en forma de Estado indígena. En 1530, pasa al convento de Tlaxcala y contribuye a la fundación de la Ciudad de Puebla de los Ángeles en 1531. En 1555 escribe una carta célebre al emperador contra Las Casas en defensa de la Conquista. Residió los últimos años de su vida en la cápita donde fallece en 1565.
+
 
 							 <?
 							}else{

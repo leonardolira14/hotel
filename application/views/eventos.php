@@ -18,7 +18,7 @@
 		<div class="col-12 col-md-10 col-lg-10 col-xl-10 text-justify text-blue text-font-1-5">
 			<?if($Idioma==="es"){
 			?>
-			Los eventos en el <strong>Hotel Boutique Marqués del Ángel</strong>, son una <strong>experiencia única y de elegancia</strong>, ofreciendo una gran variedad de sus áreas para <strong>eventos sociales y empresariales</strong>. 
+			Los eventos en el <strong>Hotel Boutique Marqués del Ángel</strong> son una <strong>experiencia única y de elegancia</strong>, ofreciendo una gran variedad de sus áreas para <strong>eventos sociales y empresariales</strong>. 
 				<br>
 				<br>
 			Desde un <strong>salón privado</strong> con capacidad de 10 personas, hasta nuestro <strong>salón principal</strong> para 100 personas. Ofreciendo <strong>menús personalizados y especializados</strong>, montajes y decoración para banquetes, hermosas mesas de dulces, servicios de SPA, habitaciones para los novios y sus familiares, así como <strong>tarifas especiales para invitados</strong>. 
@@ -83,7 +83,7 @@ bride and groom and their families,<strong> as well as special rates for guests<
 		<a href="<?= base_URL()?>cotizador/<?= $Idioma?>" class="col-12 col-md-4 col-lg-4 col-xl-4 btn btn-secondary m-t-40 text-blue">
 			<?if($Idioma==="es"){
 			?>
-				<h3>¡Cotiza con nosotros!<br>AQUI</h3>
+				<h3>¡Cotiza con nosotros!<br>AQUÍ</h3>
 			<?
 			}else{
 				?>

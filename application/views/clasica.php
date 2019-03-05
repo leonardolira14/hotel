@@ -25,7 +25,7 @@
 				</div>
 				<div class="col-9 text-center m-t-30">
 					<div class="btn btn-secondary text-2">
-						<small class="text-uppercase"><?= $textohead->T2?></small>
+						<a href="#"><small  class="text-uppercase"><?= $textohead->T2?></small></a>
 					</div>
 				</div>
 			</div>
@@ -95,10 +95,10 @@ if($Idioma==="es"){
 				<ul>
 					
 					<li>Caja de Seguridad</li>
-					<li>Samart TV con Cable</li>
-					<li>Chapa Electronica</li>
+					<li>Smart TV con Cable</li>
+					<li>Chapa Electrónica</li>
 					<li>AC</li>
-					<li>Télefono</li>
+					<li>Teléfono</li>
 					<li>Wifi de alta velocidad</li>
 					
 					
@@ -108,7 +108,7 @@ if($Idioma==="es"){
 		<div class="col-12 col-md-6 col-lg-6 col-xl-6 text-white lista-amenidades text-2 ">
 			<h4>
 				<ul>
-					<li>Armario Antigüo</li>
+					<li>Armario Antiguo</li>
 					<li>Suave ropa de cama</li>
 					
 					<li>Kit de Baño</li>
@@ -125,7 +125,7 @@ if($Idioma==="es"){
 		<div class="col-9 col-md-6 col-lg-6 col-xl-6 text-white  lista-amenidades text-2">
 			<h4>
 				<ul>
-					<li>Máquina de Cáfe Premium</li>
+					<li>Máquina de Café Premium</li>
 					<li>Selección de amenidades CAVA</li>
 					<li>Bebidas</li>
 					<li>Baño</li>

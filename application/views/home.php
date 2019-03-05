@@ -14,15 +14,15 @@
 <div class="container-fluid img-hhome"></div>
 <div class="container-fluid form-disp ">
 	<form id="form_busqueda" method="post" action="<?= base_url('welcome/busqueda_habitacion')?>" class="row form-group">
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
+		<div class="col-12 col-md-3 col-xl-3 col-lg-3 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T1 ?></label>
-			<input placeholder="CHECK IN"  llc="date" autocomplete="off" type="text"  name="checkin"   class="form-control">
+			<input placeholder="CHECK-IN"  llc="date" autocomplete="off" type="text"  name="checkin"   class="form-control">
 		</div>
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
+		<div class="col-12 col-md-3 col-xl-3 col-lg-3 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T2 ?></label>
-			<input   placeholder="CHECK OUT" llc="date"  autocomplete="off" type="text"  name="checkout"  class="form-control">
+			<input   placeholder="CHECK-OUT" llc="date"  autocomplete="off" type="text"  name="checkout"  class="form-control">
 		</div>
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
+		<div class="col-12 col-md-3 col-xl-3 col-lg-3 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T3 ?></label>
 			<select name="adultos" class="form-control">
 				<?php
@@ -36,7 +36,7 @@
 				?>
 			</select>
 		</div>
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
+		<div class="col-12 col-md-3 col-xl-3 col-lg-3 m-t-15 m-b-15 text-center">
 			<label for="" class="text-white text-uppercase"><?= $texthome->T4 ?></label>
 			<select name="ninos" class="form-control">
 				<option value="select">Selecciona</option>
@@ -51,38 +51,10 @@
 				?>
 			</select>
 		</div>
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
-			<label for="" class="text-white text-uppercase"><?= $texthome->T5 ?> </label>
-			<select name="tipohabitacion" class="form-control">
-				<option value="select">Selecciona</option>
-				<? foreach (json_decode($texthome->Habitaciones) as $list) {
-					?>
-					<option value="select"><?=$list?></option>
-					<?
-				}
-				?>
-				
-				
-			</select>
-		</div>
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-15 m-b-15 text-center">
-			<label for="" class="text-white text-uppercase"><?= $texthome->T15 ?> </label>
-			<select name="nohabitacion" class="form-control">
-				<option value="select">Selecciona</option>
-				<?php
-				$i=1;
-				while($i<=12){
-					?>
-					<option value="<?= $i ?>"><?= $i ?></option>
-					<?php
-					$i++;
-				}
-				?>
-				
-			</select>
-		</div>
+	
+	
 		<input type="hidden" value="home" name="dedonde">
-		<div class="col-12 m-t-45 m-b-15 text-center">
+		<div class="col-12 m-t-15 m-b-15 text-center">
 			<button llc="btn_busqueda" type="submit" class="btn btn-secondary text-uppercase">
 				<?= $texthome->T6 ?>
 			</button>

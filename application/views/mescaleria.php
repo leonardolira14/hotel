@@ -8,7 +8,7 @@
 		<div class="col-12 text-center titulos-habitaciones">
 			<?if($Idioma==="es"){
 			?>
-			<h2>Mezcaleria & Cava del Marqués</h2>
+			<h2>Mezcalería & Cava del Marqués</h2>
 			<?
 		}else{
 			?>
@@ -28,7 +28,7 @@
 		<div class="col-12 col-md-10 col-lg-10 col-xl-10 text-justify text-blue text-font-1-5">
 			<?if($Idioma==="es"){
 			?>
-			Una herencia de los españoles durante la conquista, <strong>fue el vino</strong>. En el Marqués podrás degustar en un ambiente perfecto <strong> uno de nuestros vinos de la cava del Hotel</strong>. Sin embargo, otra herencia que nos dejan los propios nativos de México fue <strong>el Mezcal</strong>.  Contamos con diferentes mezcales de denominacion poblana, para que los puedas degustar en compañía de tus amigos o familia.
+			Una herencia de los españoles durante la conquista <strong>fue el vino</strong>, en el Marqués podrás degustar en un ambiente perfecto <strong> uno de nuestros vinos de la cava del Hotel</strong>. Sin embargo, otra herencia que nos dejan los propios nativos de México fue <strong>el Mezcal</strong>.  Contamos con diferentes mezcales de denominación poblana, para que los puedas degustar en compañía de tus amigos o familia.
 			<?php 
 			}else{
 				?>

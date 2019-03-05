@@ -35,13 +35,13 @@
 						<img class="iconos" src="<?= base_URL()?>assets/img/reservacion.svg" alt="">
 					</div>
 					<div class="col-10 text-white m-t-20">
-						reservaciones@hotelmarquesdelangel
+						reservaciones@hotelmarquesdelangel.com
 					</div>
 					<div class="col-2 text-center m-t-20">
 						<img class="iconos" src="<?= base_URL()?>assets/img/direccion.svg" alt="">
 					</div>
 					<div class="col-10 text-white m-t-20">
-						Av. 5 Poniente No.332 Col. Centro Puebla,Pue. Mex.
+						Av. 5 Poniente No.332 Col. Centro Puebla,Pue. México.
 					</div>
 				</div>
 			</div>		

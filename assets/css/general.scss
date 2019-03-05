@@ -357,7 +357,7 @@ background:transparent url('../img/Home_Imagen3.jpg') center center no-repeat;
 }
 .cont-modalgalery{
 	background: transparent url("../img/fondo-dorado-popup.jpg") center center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	@media screen and (max-width: $md) {
 		background-size: cover;
 	}

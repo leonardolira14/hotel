@@ -98,12 +98,12 @@
 					<ul>
 
 						<li>Caja de Seguridad</li>
-						<li>Samart TV con Cable</li>
-						<li>Chapa Electronica</li>
+						<li>Smart TV con Cable</li>
+						<li>Chapa Electrónica</li>
 						<li>AC</li>
-						<li>Télefono</li>
+						<li>Teléfono</li>
 						<li>Wifi de alta velocidad</li>
-						<li>Armario Antigüo</li>
+						<li>Armario Antiguo</li>
 
 					</ul>
 				</h4>
@@ -114,7 +114,7 @@
 
 
 						<li>Suave ropa de cama</li>
-						<li>Escritorio para Comer o Tranajar tranquilamente </li>
+						<li>Escritorio para Comer o Trabajar tranquilamente </li>
 						<li>Kit de Baño</li>
 						<li>Secadora de Cabello</li>
 						<li>Regadera de presión ajustable</li>
@@ -129,14 +129,14 @@
 			<div class="col-9 col-md-6 col-lg-6 col-xl-6 text-white text-2 lista-amenidades">
 				<h4>
 					<ul>
-						<li>Máquina de Cáfe Premium</li>
+						<li>Máquina de Café Premium</li>
 						<li>Selección de amenidades CAVA</li>
 						<li>Vino de la Casa </li>
 						<li>Baño</li>
 						<li>Kit de Baño</li>
 						<li>Secadora de Cabello</li>
 						<li>Batas de baño</li>
-						<li>Pantúflas cómodas</li>
+						<li>Pantuflas comodas</li>
 						<li>Bebidas Premium</li>
 					</ul>
 				</h4>
@@ -186,7 +186,7 @@
 					<ul>
 
 						<li>Security box</li>
-						<li>Samart TV with Cable</li>
+						<li>Smart TV with Cable</li>
 						<li>Electronic plate</li>
 						<li>AC</li>
 						<li>Telephone</li>
@@ -304,8 +304,7 @@
 						<div class="col-10 text-justify m-t-30 m-b-50 text-blue text-popup">
 							<? if($Idioma==="es"){
 							?>
-							Religioso franciscano que llegó a México con el grupo de los “doce apostoles” que desembarcaron en San Juan de Ulúa Veracruz el 13 de Mayo de 1524, liderados por Fray Martín de Valencia. Gran parte de su trabajo en la Nueva España fue dedicado a los indígenas por quienes se preocupaba para que no les faltase la evangelización. Fue fundador del Colegio de la Santa Cruz, donde se les enseñaba a los indígen 
-							as, además de la religión y buenas costumbres, retórica, filosofía, música y medicina mexicana. En 1531 cooperó con la fundación de Puebla de los Ángeles en 1531 junto con Fray Toribio de Benavente y ambos pusieron el nombre de los Ángeles. En 1536 con deseos de regresar a Castilla para rendir cuentas al Emperador con las necesidades indígenas, enfermó gravemente y murió.
+							Religioso franciscano que llegó a México con el grupo de los “doce apóstoles” que desembarcaron en San Juan de Ulúa Veracruz el 13 de Mayo de 1524, liderados por Fray Martín de Valencia. Gran parte de su trabajo en la Nueva España fue dedicado a los indígenas por quienes se preocupaba para que no les faltase la evangelización. Fue fundador del Colegio de la Santa Cruz, donde se les enseñaba a los indígenas, además de la religión y buenas costumbres, retórica, filosofía, música y medicina mexicana. En 1531 cooperó con la fundación de Puebla de los Ángeles en 1531 junto con Fray Toribio de Benavente y ambos pusieron el nombre de los Ángeles. En 1536 con deseos de regresar a Castilla para rendir cuentas al Emperador con las necesidades indígenas, enfermó gravemente y murió.
 						<? }else{
 							?>
 Religious granciscano who arrived in Mexico with the group of &quot;twelve
@@ -380,7 +379,7 @@ to the Emperor with the Indian needs, he became seriously ill and died.
 						<div class="col-10 text-justify m-t-30 m-b-50 text-blue text-popup">
 							<? if($Idioma==="es"){
 							?>
-							El segundo de los doce apóstoles que llegaron a la Nueva España en 1524, arrivó a México siendo ya de una avanzada edad por lo que se le dificulto aprender las lenguas indígenas. Participó principalmente en la fundación de la provincia del Santo Evangelio el cual ocupó cargo varias veces de definidor provincial. Recorrió la provincia a pie y descalzo llevando el evangelio de cristo a indígenas y a españoles. Defensor de los indígenas y sus tierras del abuso de los propios conquistadores. En 1546 regresó a España para gestionar asuntos a favor de la defensa de los indígenas,  prometió regresar a los indígenas y en 1550 llega nuevamente a México. En 1551 fallece en la ciudad de México.
+							El segundo de los doce apóstoles que llegaron a la Nueva España en 1524, arribó a México siendo ya de una avanzada edad por lo que se le dificulto aprender las lenguas indígenas. Participó principalmente en la fundación de la provincia del Santo Evangelio el cual ocupó cargo varias veces de definidor provincial. Recorrió la provincia a pie y descalzo llevando el evangelio de cristo a indígenas y a españoles. Defensor de los indígenas y sus tierras del abuso de los propios conquistadores. En 1546 regresó a España para gestionar asuntos a favor de la defensa de los indígenas, prometió regresar a los indígenas y en 1550 llega nuevamente a México. En 1551 fallece en la ciudad de México.
 							<? }else{
 							?>
 							The second of the twelve apostles who arrived in New Spain in 1524, arrived

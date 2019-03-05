@@ -27,9 +27,9 @@
 		<div class="col-12 col-md-10 col-lg-10 col-xl-10 text-justify text-blue text-font-1-5 descrip">
 			<?if($Idioma==="es"){
 			?>
-			<p><strong>Una</strong> combinacion histórica <strong>con nuestras raíces mexicanas, busca </strong>generar una experiencia <strong>de aprendizaje natural dentro de las instalaciones del Hotel, transportando a la época del siglo XVII.</strong> 
+			<p><strong>Una</strong> combinación histórica <strong>con nuestras raíces mexicanas, busca </strong>generar una experiencia <strong>de aprendizaje natural dentro de las instalaciones del Hotel, transportando a la época del siglo XVII.</strong> 
 				<br>
-			Una herencia de los españoles durante la conquista, fue el vino. En el Marqués podrás degustar en un ambiente perfecto uno de nuestros vinos de la cava del Hotel. Sin embargo la herencia que nos dejan los propios nativos de México fue el Mezcal.<p> 
+			Una herencia de los españoles durante la conquista fue el vino, en el Marqués podrás degustar en un ambiente perfecto uno de nuestros vinos de la cava del Hotel. Sin embargo, la herencia que nos dejan los propios nativos de México fue el Mezcal.<p> 
 			<?
 			}else{
 				?>

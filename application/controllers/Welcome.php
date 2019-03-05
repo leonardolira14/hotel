@@ -135,7 +135,7 @@ class Welcome extends CI_Controller {
 		$idioma=strtoupper($idioma);
 		$data["Idioma"]=strtolower($idioma);
 		$data["title"]="Hotel Marqués del Ángel";
-		$data["textohead"]=$this->Model_Menu->gettext($idioma);
+		$data["textohead"]=$this->Model_Menu->Gettext($idioma);
 		$_data["texthome"]=$this->Model_Menu->Gettexthome($idioma);
 		$_data["listarooms"]=$this->Model_Menu->Gettextlistrooms($idioma);
 		$data["textfooter"]=$this->Model_Menu->Gettextfooter($idioma);

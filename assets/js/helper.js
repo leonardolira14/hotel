@@ -1,6 +1,7 @@
 class Help{
 	
 	constructor(){
+		//this.urls="https://hotelmarquesdelangel.com/";
 	//this.urls='http://localhost/hotel/';
 	this.urls="https://agenciapegasus.com.mx/hotel/";
 	}
@@ -58,6 +59,19 @@ class Home extends Help {
 			}
 		})
 	}
+	envioexperi(){
+		let form=$("form#experiencias");
+		let url=form.attr("url");
+		super.sendform(url,form,function(resp){
+			console.log(resp);
+			if(resp.pass===0){
+			toastr.error(resp.mensaje, 'Error!')
+			}else{
+				toastr.success("Mensaje Enviado", 'Exito!');
+				form.trigger("reset");
+			}
+		})
+	}
 	
 }
 let home=new Home();
@@ -71,6 +85,9 @@ $(function(){
 //enventos en los botones
 $(document).on("click","form#cotizador div[llc='envi']",function(){
 	home.enviocotiza();
+});
+$(document).on("click","form#experiencias span[llc='envi']",function(){
+	home.envioexperi();
 });
 $(document).on("click",".btn-menu",function(){
 	home.togglemenu()

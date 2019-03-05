@@ -44,41 +44,59 @@ if(count($cart->hotelogix->response->hotels)!==0){
 <div class="container-fluid fondo-reservaciones">
 	<div class="container menu-resevaciones p-t-70">
 		<div class="row">
-			<div class="col-2 text-center"><a href="<?= base_URL('/reservacion/').$idioma?>">1.-Fecha de estadia</a></div>
-			<div class="col-3 text-center"><a class=""  href="<?= base_URL('listroom/'.$Idioma)?>">2.-Seleccionar habitación</a></div>
-			<div class="col-4 text-center"><a  href="<?= base_URL('detallesreserva/').$idioma?>">3.-Detalles/agregar otras habitaciones</a></div>
-			<div class="col-3 text-center"><a class="active" href="<?= base_URL('confirmarreservacion/').$idioma?>">4.-Confirmar reservación</a></div>
+			<div class="col-12 col-md-2 col-xl-2 col-lg-2 text-center m-t-20"><a  href="<?= base_URL('/reservacion/').$idioma?>">1.-<?=($idioma==='es')?'Fecha de estadía':'Stay Date'?></a></div>
+			<div class=" col-12 col-md-3 col-xl-3 col-lg-3 text-center m-t-20"><a class=""  href="<?= base_URL('listroom/'.$Idioma)?>">2.-<?=($Idioma==='es')?'Seleccionar habitación':'Select Room'?></a></div>
+			<div class="col-12 col-md-4 col-xl-4 col-lg-4 text-center m-t-20"><a class=""  href="<?= base_URL('detallesreserva/').$Idioma?>">3.-<?=($Idioma==='es')?'Detalles/agregar otras habitaciones':'Check Details/Add More Rooms'?></a></div>
+			<div class="col-12 col-md-3 col-xl-3 col-lg-3 text-center m-t-20"><a class="active" href="<?= base_URL('confirmarreservacion/').$Idioma?>">4.-<?=($Idioma==='es')?'Confirmar reservación':'Confirm Reservation'?></a></div>
 			<div class="col-12 text-center m-t-40">
-				<h2 class="text-white text-2 text-uppercase">Confirme su reserva / pagos</h2>	
+				<h2 class="text-white text-2 text-uppercase"><?=($Idioma==='es')?'Confirme su reserva / pagos':'Confirm your Booking / Payments'?></h2>	
 			</div>
 
 			<div class="col-12 ray-dor m-b-30"></div>
 			
 		</div>
 		<div class="row d-flex justify-content-end">
-			<div class="col-6 text-2 m-t-30 text-white">
-				Convertidor de Divisas:  <select name=""  class="divisa" id=""><option value="">MXN</option><option value="">USD</option></select>
+			<div class="col-12 col-md-6 col-xl-6 col-lg-6 text-6 m-t-30 text-white">
+				<?=($Idioma==="es")?'Convertidor de Divisas':'Currency Converter'?>:  <select name=""  class="divisa" id=""><option value="">MXN</option><option value="">USD</option></select>
 			</div>
-			<div class="col-6 text-2 m-t-30 text-white m-b-40 text-right">
-				<a href="<?= base_URL('newreservacion/').$idioma?>">Nueva Busqueda</a>
+			<div class="col-12 col-md-6 col-xl-6 col-lg-6 text-6 text-2 m-t-30 text-white m-b-40 text-right">
+				<a href="<?= base_URL('newreservacion/').$idioma?>"><?=($Idioma==="es")?'Nueva Búsqued':'New Search'?></a>
 			</div>
 		</div>
 	</div>
 	<div class="container bg-white">
 		<div class="row p-t-70 p-b-70">
 			<div class="col-12 text-left">
-				<h4><strong class="text-golden text-2 text-uppercase">Detalles de la reservación:</strong></h4>
+				<h4><strong class="text-golden text-2 text-uppercase"><?= ($Idioma==="es")?'Detalles de la reservación':'Selected Room(s)'?>:</strong></h4>
 			</div>
 			<div class="col-12 m-t-20 ">
-				<table class="table table-hover">
-					<thead>
-						<th col="scope" class="text-2 text-blue">Detalle del paquete</th>
-						<th col="scope" class="text-2 text-blue">LLegada-Salida</th>
-						<th col="scope" class="text-2 text-blue">Personas(S)</th>
-						<th col="scope" class="text-2 text-blue text-center">Precio</th>
-						<th col="scope" class="text-2 text-blue text-center">Impuestos</th>
-						<th col="scope" class="text-2 text-blue text-center">Total</th>
-					</thead>
+				<table class="table table-hover ">
+					<?
+						if($Idioma==="es"){
+							?>
+							<thead>
+								<th col="scope" class="text-2 text-blue">Detalle del paquete</th>
+								<th col="scope" class="text-2 text-blue">LLegada-Salida</th>
+								<th col="scope" class="text-2 text-blue">Persona(s)</th>
+								<th col="scope" class="text-2 text-blue text-center">Precio</th>
+								<th col="scope" class="text-2 text-blue text-center">Impuestos</th>
+								<th col="scope" class="text-2 text-blue text-center">Total</th>
+							</thead>
+							<?
+						}else{
+							?>
+							<thead>
+								<th col="scope" class="text-2 text-blue">Package/Rate Detail</th>
+								<th col="scope" class="text-2 text-blue">Arrival-Departure</th>
+								<th col="scope" class="text-2 text-blue">Person(s)</th>
+								<th col="scope" class="text-2 text-blue text-center">Price</th>
+								<th col="scope" class="text-2 text-blue text-center">Tax(es)</th>
+								<th col="scope" class="text-2 text-blue text-center">Amount</th>
+							</thead>
+							<?
+						}
+					?>
+					
 					<tbody>
 						<?
 							if($habitaciones!==false){
@@ -101,19 +119,19 @@ if(count($cart->hotelogix->response->hotels)!==0){
 					</tbody>
 				</table>
 			</div>
-			<div class="col-5 m-b-30 offset-md-7">
+			<div class=" col-12 col-md-5 col-xl-5 col-lg-5 text-5 m-b-30 offset-md-7">
 				<table class="table montos">	
 					<tbody>
 						<tr>
-							<td class="text-right "><strong class=" text-2 text-blue text-uppercase text-right">MONTO TOTAL:</strong></td>
+							<td class="text-right "><strong class=" text-2 text-blue text-uppercase text-right"><?= ($Idioma==="es")?'MONTO TOTAL':'Total Amount'?>:</strong></td>
 							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-right">$ <?= $total ?></strong></td>
 						</tr>
 						<tr>
-							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-right">Total Impuesto(S):</strong></td>
+							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-right"><?= ($Idioma==="es")?'Total Impuesto(S)':'Total Tax(es)'?>:</strong></td>
 							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-left ">$ <?= $iva ?></strong></td>
 						</tr>
 						<tr>
-							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-right">Valor Total Con impuestos:</strong></td>
+							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-right"><?= ($Idioma==="es")?'Valor Total Con impuestos':'Total Amount (with Tax)'?>:</strong></td>
 							<td class="text-right"><strong class="text-2 text-blue text-uppercase text-left">$ <?= $sub ?></strong></td>
 						</tr>
 					</tbody>
@@ -123,69 +141,69 @@ if(count($cart->hotelogix->response->hotels)!==0){
 		<form class="row" method="post" action="<?= base_url('addrecervacion/').$Idioma?>">
 			<div class="col-10 ray-dor m-b-30 gr-3 centrar"></div>
 			<div class="col-12 text-left">
-				<h4><strong class="text-golden text-2 text-uppercase">Detalles del Huesped:</strong></h4>
+				<h4><strong class="text-golden text-2 text-uppercase"><?= ($Idioma==="es")?'Detalles del Huesped':'Guest Details'?>:</strong></h4>
 			</div>
 			<div class="col-12 m-t-20">
 				<div class="row">
-					<div class="col-1 m-r-15">
-						<h5><strong class="text-blue text-2">Nombre: </strong></h5>
+					<div class="col-12 col-md-1 col-xl-1 col-lg-1 text-1 m-r-15 m-t-20">
+						<h5><strong class="text-blue text-2"><?= ($Idioma==="es")?'Nombre':'Guest Name'?>: </strong></h5>
 					</div>
-					<div class="col-2">
+					<div class="col-12 col-md-2 col-xl-2 col-lg-2 m-t-20">
 						    <select name="titulo" class="form-control" id="exampleFormControlSelect1">
-						      <option value="">Titulo</option>
+						      <option value=""><?= ($Idioma==="es")?'Titulo':'Title'?></option>
 						      <option value="Mrs">Mrs.</option>
 						      <option value="Mr">Mr.</option>
 						      <option value="Miss">Miss</option>
 						    </select>
 					</div>
-					<div class="col-4">
-						<input type="text" name="nombre" placeholder="Nombre" class="form-control">
+					<div class="col-12 col-md-4 col-xl-4 col-lg-4 m-t-20">
+						<input type="text" name="nombre" placeholder="<?= ($Idioma==='es')?'Nombre':'Name'?>" class="form-control">
 					</div>
-					<div class="col-4">
-						<input type="text" name="apellidos" placeholder="Apellidos" class="form-control">
+					<div class="col-12 col-md-4 col-xl-4 col-lg-4 m-t-20">
+						<input type="text" name="apellidos" placeholder="<?= ($Idioma==='es')?'Apellidos':'Last Name'?>" class="form-control">
 					</div>
 				</div>
 			</div>
-			<div class="col-6 m-t-20">
+			<div class="col-12 col-md-6 col-xl-6 col-lg-6 m-t-20">
 				<div class="form-group row">
-				    <label for="pais" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2">Teléfono:</strong></h5></label>
-				    <div class="col-sm-10">
+				    <label for="pais" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Teléfono':'Telephone'?>:</strong></h5></label>
+				    <div class="col-sm-9">
 				     <input type="text" name="telefono" class="form-control"  placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-6 m-t-20">
+			<div class="col-12 col-md-6 col-xl-6 col-lg-6 m-t-20">
 				<div class="form-group row">
-				    <label for="pais" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2">Móvil:</strong></h5></label>
+				    <label for="pais" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Móvil':'Mobile'?>:</strong></h5></label>
 				    <div class="col-sm-10">
 				     <input type="text" name="movil" class="form-control"  placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-6 m-t-20">
+			<div class="col-12 col-md-6 col-xl-6 col-lg-6 m-t-20">
 				<div class="form-group">
-					<label for=""><h5><strong class="text-blue text-2">Correo Electrónico:</strong></h5></label>
+					<label for=""><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Correo Electrónico':'Email'?>:</strong></h5></label>
 					<input type="text" name="correo" placeholder="" class="form-control">
 				</div>
 			</div>
-			<div class="col-6 m-t-20">
+			<div class="col-12 col-md-6 col-xl-6 col-lg-6 m-t-20">
 				<div class="form-group">
-					<label for=""><h5><strong class="text-blue text-2">Confirme Correo Electrónico:</strong></h5></label>
+					<label for=""><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Confirme Correo Electrónico':'Confirm Email'?>:</strong></h5></label>
 					<input type="text" name="correo2" placeholder="" class="form-control">
 				</div>
 			</div>
 			<div class="col-12 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2">Dirección:</strong></h5></label>
+				    <label for="cp" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Dirección':'Address'?>:</strong></h5></label>
 				    <div class="col-sm-10">
 				      <input type="text" name="direccion" class="form-control" id="direccion" placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-4 m-t-20">
+			<div class="col-12 col-md-4 col-xl-4 col-lg-4 m-t-20">
 				<div class="form-group row">
-				    <label for="pais" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2">Pais:</strong></h5></label>
-				    <div class="col-sm-10">
+				    <label for="pais" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'País':'Country'?>:</strong></h5></label>
+				    <div class="col-sm-9">
 				      <select id="pais" name="pais"  class="form-control" >
 				      	<?php
 				      	foreach ($paises as $pais) {
@@ -204,9 +222,9 @@ if(count($cart->hotelogix->response->hotels)!==0){
 				    </div>
 				 </div>
 			</div>
-			<div class="col-4 m-t-20">
+			<div class="col-12 col-md-4 col-xl-4 col-lg-4 m-t-20">
 				<div class="form-group row">
-				    <label for="estado" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2">Estados:</strong></h5></label>
+				    <label for="estado" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Estados':'State'?>:</strong></h5></label>
 				    <div class="col-sm-9">
 				    	<select name="estado" id="estado"  class="form-control" id="">
 				    		<?php
@@ -220,48 +238,59 @@ if(count($cart->hotelogix->response->hotels)!==0){
 				    </div>
 				 </div>
 			</div>
-			<div class="col-4 m-t-20">
+			<div class="col-12 col-md-4 col-xl-4 col-lg-4 m-t-20">
 				<div class="form-group row">
-				    <label for="ciudad" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2">Ciudad:</strong></h5></label>
+				    <label for="ciudad" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Ciudad':'City'?>:</strong></h5></label>
 				    <div class="col-sm-9">
 				      <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-5 m-t-20">
+			<div class="col-12 col-md-5 col-xl-5 col-lg-5 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-5 col-form-label"><h5><strong class="text-blue text-2">Código Postal:</strong></h5></label>
+				    <label for="cp" class="col-sm-5 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Código Postal':'Zip Code'?>:</strong></h5></label>
 				    <div class="col-sm-7">
 				      <input type="text" name="cp" class="form-control" id="cp" placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-8 m-t-20">
+			<div class="col-12 col-md-8 col-xl-8 col-lg-8 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2">Prefencias:</strong></h5></label>
+				    <label for="cp" class="col-sm-2 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Prefencias':'Preferences'?>:</strong></h5></label>
 				    <div class="col-sm-10">
-				      <textarea cols="10" name="prefencias" rows="5" class="form-control" id="cp" placeholder="Introdusca aquí sus Prefencias"></textarea>
+				      <textarea cols="10" name="prefencias" rows="5" class="form-control" id="cp" placeholder="<?= ($Idioma==='es')?'Introdusca aquí sus Prefencias':'Enter Preferences Here'?>"></textarea>
 				    </div>
 				 </div>
 			</div>
 			<div class="col-12 text-left m-t-40">
-				<h4><strong class="text-golden text-2 text-uppercase">opciones de confirmación:</strong></h4>
+				<h4><strong class="text-golden text-2 text-uppercase"><?= ($Idioma==='es')?'opciones de confirmación':'Confirmation Options'?>:</strong></h4>
 			</div>
 			<div class="col-12">
-				<label class="containert"><h5>Yo reconozco la lectura del <a class="text-blue" href="<?= base_URL('assets/pdf/Aviso.pdf')?>" target="_blank"><strong>Términos y Condiciones</strong></a> y acepto pagar de acuerdo a los términos allí establecidos, de acuerdo a mi opción de más abajo.</h5>
+				<label class="containert">
+					<?
+						if($Idioma==="es"){
+							?>
+					<h5>Yo reconozco la lectura del <a class="text-blue" href="<?= base_URL('assets/pdf/Aviso.pdf')?>" target="_blank"><strong>Términos y Condiciones</strong></a> y acepto pagar de acuerdo a los términos allí establecidos, de acuerdo a mi opción de más abajo.</h5>
+					<?
+					}else{
+						?>
+						<h5>I acknowledge reading the <a class="text-blue" href="<?= base_URL('assets/pdf/Aviso.pdf')?>" target="_blank"><strong>Terms and Conditions </strong></a> and I agree to pay according to the terms stated, in line with my choice below.</h5>
+						<?
+					}
+					?>
 				  <input name="acepto" type="checkbox" checked="checked">
 				  <span class="checkmark"></span>
 				</label>
 			</div>
 			<div class="col-12 text-left m-t-40">
-				<h4><strong class="text-golden text-2 text-uppercase">INGRESA LOS DATOS DE SU TARJETA DE CRÉDITO:</strong></h4>
+				<h4><strong class="text-golden text-2 text-uppercase"><?= ($Idioma==='es')?'INGRESA LOS DATOS DE SU TARJETA DE CRÉDITO':'PAYMENT INFORMATION'?>:</strong></h4>
 			</div>
 			<div class="col-12">
-				<h4 class="text-blue text-2">La tarjeta de crédito solo sera usada como garantia  y no se cargará</h4>
+				<h4 class="text-blue text-2"><?=($Idioma==='es')?'La tarjeta de crédito solo será usada de garantía y no se realizará ningún cargo.':'Credit Card Guarantee required for booking.'?></h4>
 			</div>
-			<div class="col-5 m-t-20">
+			<div class="col-12 col-md-5 col-xl-5 col-lg-5 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-5 col-form-label"><h5><strong class="text-blue text-2">Tipo de Tarjeta:</strong></h5></label>
+				    <label for="cp" class="col-sm-5 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Tipo de Tarjeta':'Payment Type'?>:</strong></h5></label>
 				    <div class="col-sm-7">
 				      <select name="tipotj" class="form-control" id="cp">
 				      	<option value="visa">Visa</option>
@@ -271,23 +300,23 @@ if(count($cart->hotelogix->response->hotels)!==0){
 				    </div>
 				 </div>
 			</div>
-			<div class="col-10 m-t-20">
+			<div class="col-12 col-md-10 col-xl-10 col-lg-10 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2">Nombre en la tarjeta:</strong></h5></label>
+				    <label for="cp" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Nombre en la tarjeta':'Cardholder Name'?>:</strong></h5></label>
 				    <div class="col-sm-9">
 				      <input type="text" name="nombretj" class="form-control" id="cp" placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-10 m-t-20">
+			<div class="col-12 col-md-10 col-xl-10 col-lg-10 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2">Número de la tarjeta:</strong></h5></label>
+				    <label for="cp" class="col-sm-3 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Número de la tarjeta':'Card Number'?>:</strong></h5></label>
 				    <div class="col-sm-9">
 				      <input type="number" name="numerotj" class="form-control" id="cp" placeholder="">
 				    </div>
 				 </div>
 			</div>
-			<div class="col-4 m-t-20">
+			<div class="col-12 col-md-4 col-xl-4 col-lg-4 m-t-20">
 				<div class="form-group row">
 				    <label for="cp" class="col-sm-5 col-form-label"><h5><strong class="text-blue text-2">CVV:</strong></h5></label>
 				    <div class="col-sm-7">
@@ -295,10 +324,10 @@ if(count($cart->hotelogix->response->hotels)!==0){
 				    </div>
 				 </div>
 			</div>
-			<div class="col-7 m-t-20">
+			<div class="col-12 col-md-7 col-xl-7 col-lg-7 m-t-20">
 				<div class="form-group row">
-				    <label for="cp" class="col-sm-4 col-form-label"><h5><strong class="text-blue text-2">Fecha de expiración:</strong></h5></label>
-				    <div class="col-sm-4">
+				    <label for="cp" class="col-sm-4 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==='es')?'Fecha de expiración':'Expiration Date'?>:</strong></h5></label>
+				    <div class="col-sm-4 m-b-20">
 				      <select name="month"  class="form-control" >
 				      	<option value="">MM</option>
 				      	<?
@@ -310,7 +339,7 @@ if(count($cart->hotelogix->response->hotels)!==0){
 				      	?>
 				      </select>
 				    </div>
-				    <div class="col-sm-4">
+				    <div class="col-sm-4 ">
 				      <select name="year"  class="form-control" >
 
 				      	<option value=""><?=($Idioma==="es")?'AAAA':'YYYY';?></option>
@@ -326,7 +355,7 @@ if(count($cart->hotelogix->response->hotels)!==0){
 				 </div>
 			</div>
 			<div class="col-12 m-t-20 text-center m-b-30">
-				<button type="submit" class="btn btn-success text-uppercase">confirmar vía tarjeta de crédito</button>
+				<button type="submit" class="btn btn-success text-uppercase"><?=($Idioma==="es")?'Confirmar Reservación':'Confirm Reservation';?></button>
 			</div>
 			</form>
 	

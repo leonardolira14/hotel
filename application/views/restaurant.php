@@ -33,7 +33,7 @@
 	</div>
 </div>
 </div>
-<div class="container-fluid banner-menu">
+<!---<div class="container-fluid banner-menu">
 	<div class="row ">
 		<? 
 		if($Idioma==="es"){
@@ -48,7 +48,7 @@
 		?>
 		
 	</div>
-</div>
+</div>--->
 <script type="text/javascript">
 
 function loadApp() {

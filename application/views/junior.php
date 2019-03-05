@@ -21,7 +21,7 @@
 					<img class="img-fluid" onclick="$('#Galeria3').modal('toggle')" src="<?=base_URL()?>assets/img/101_JUNIOR_SUITE.jpg" alt="">
 				</div>
 				<div class="col-9 text-center m-t-30 text-blue text-3">
-					<h4>Fray Luis de Fuensalida</h4>
+					<h4>Fray Luis de Fuen Salida</h4>
 				</div>
 				<div class="col-9 text-center m-t-30">
 					<div class="btn btn-secondary text-2">
@@ -106,20 +106,20 @@ if($Idioma==="es"){
 				<ul>
 					
 					<li>Caja de Seguridad</li>
-					<li>Samart TV con Cable</li>
-					<li>Chapa Electronica</li>
+					<li>Smart TV con Cable</li>
+					<li>Chapa Electrónica</li>
 					<li>AC</li>
-					<li>Télefono</li>
+					<li>Teléfono</li>
 					<li>Wifi de alta velocidad</li>
 					
 				</ul>
 			</h4>
 		</div>
-		<div class="col-12 col-md-5 col-lg-5 col-xl-5 text-white text-2 lista-amenidades">
+		<div class="col-12 col-md-6 col-lg-6 col-xl-6 text-white text-2 lista-amenidades">
 			<h4>
 				<ul>
 					
-					<li>Armario Antigüo</li>
+					<li>Armario Antiguo</li>
 					<li>Suave ropa de cama</li>
 					
 					<li>Kit de Baño</li>
@@ -136,7 +136,7 @@ if($Idioma==="es"){
 		<div class="col-9 col-md-6 col-lg-6 col-xl-6 lista-amenidades text-white text-2 ">
 			<h4>
 				<ul>
-					<li>Máquina de Cáfe Premium</li>
+					<li>Máquina de Café Premium</li>
 					<li>Selección de amenidades CAVA</li>
 					<li>Bebidas</li>
 					<li>Baño</li>
@@ -297,8 +297,7 @@ if($Idioma==="es"){
 							<?
 							if($Idioma==="es"){
 							?>
-							Un franciscano español que conformó parte del grupo 
- 							de los 12 apostoles que llegaron en 1524 a la Nueva España. El primer apostol de las provincias que ahora son Michoacán y Jalisco. Fue seleccionado por Fray Martín de Valencia para ser parte de los 12 viajeros evangelizadores que llegarían al nuevo mundo. En 1525 fue enviado a la región de Michoacán a bautizar a los indígenas y en la ciudad de Txintzitzan edificó un convento en honor a la Santa Madre de la Virgen María. Posteriormente viajo a la región de Jalisco donde murión en el convento de Pátzcuaro que el mismo edificó.
+							Un franciscano español que conformó parte del grupo de los 12 apóstoles que llegaron en 1524 a la Nueva España. El primer apóstol de las provincias que ahora son Michoacán y Jalisco. Fue seleccionado por Fray Martín de Valencia para ser parte de los 12 viajeros evangelizadores que llegarían al Nuevo Mundo. En 1525 fue enviado a la región de Michoacán a bautizar a los indígenas y en la ciudad de Tzintzuntzan edificó un convento en honor a la Santa Madre de la Virgen María. Posteriormente viajo a la región de Jalisco donde murió en el convento de Pátzcuaro que el mismo edificó.
 							<?
 							}else
 							{
@@ -368,14 +367,14 @@ where he died in the convent of Pátzcuaro that he built.
 							<?
 							if($Idioma==="es"){
 							?>
-							El onceavo de los “doce apóstoles” que llegaron a Méxcio en 1524, que se caracterizaba por no buscar guerra, ni riquesas, poderío, nobleza de linaje. Promulgó llegando a la Nueva España a predicar la ley cristiana. Originario de la provincia de San Gabriel, aprendió facilmente la lengua mexicana y con ella predico muchas veces a los indígenas. Viajó por varias partes con el objetivo de evangelizar. Pasó por México, Michoacán y Jalisco. No se tienen muchos datos de este Frayle, sin embargo sus restos radican guardados en la capilla mayor del convento de Izatlán en la provincia de Jalisco, junto con otros cuatro frailes que murieron por aquellos indígenas que se resistían a la religión. 
+							El onceavo de los “doce apóstoles” que llegaron a Méxcio en 1524, que se caracterizaba por no buscar guerra, ni riquezas, poderío, nobleza de linaje. Promulgó llegando a la Nueva España a predicar la Ley Cristiana. <p>Originario de la provincia de San Gabriel, aprendió fácilmente la lengua mexicana y con ella predico muchas veces a los indígenas. Viajó por varias partes con el objetivo de evangelizar. Pasó por México, Michoacán y Jalisco. No se tienen muchos datos de este fraile, sin embargo sus restos radican guardados en la Capilla Mayor del Convento de Izatlán en la provincia de Jalisco, junto con otros cuatro frailes que murieron por aquellos indígenas que se resistían a la religión.
 							<?
 							}else
 							{
 								?>
 								The eleventh of the &quot;twelve apostles&quot; who arrived in Mexico in 1524, which
 								was characterized by not seeking war, or wealth, power, nobility of lineage.
-								He promulgated by coming to New Spain to preach Christian law. Originally
+								He promulgated by coming to New Spain to preach Christian law. <p>Originally
 								from the province of San Gabriel, he easily learned the Mexican language and
 								often preached to the indigenous people. He traveled through various parts
 								with the aim of evangelizing. He passed through Mexico, Michoacán and
@@ -443,7 +442,7 @@ where he died in the convent of Pátzcuaro that he built.
 							<?
 							if($Idioma==="es"){
 							?>
-							Franciscano español que vivió en el siglo XVI. Fue uno de los denominados “doce apóstoles”, grupo de franciscanos que llegó a México en 1524, antes de la toma de la capital y ejerció sus primeras labores de evangelización entre los aztecas, se dice que bautizaron a más de un millón de indígenas. Una evangelización encabezada por Fray Martín de Valencia.  Fue el primero en aprenderla lengua autóctona y fue el encargado de escribir varias crónicas que se perdieron con el paso del tiempo. Fue el responsable de interpretar el “Códice 3 Coyote”, una tarea que le llevó más de 4 años, finalizando en 1533. No se tiene un registro exacto de su muerte o de su desaparición, aunque algunos dicen que pasó sus últimos días recluido en el colegio franciscano. Elaborando escritos que describían los usos y las costumbres aztecas. 
+							Franciscano español que vivió en el siglo XVI. Fue uno de los denominados “doce apóstoles”, grupo de franciscanos que llegó a México en 1524, antes de la toma de la capital y ejerció sus primeras labores de evangelización entre los aztecas, se dice que bautizaron a más de un millón de indígenas. <p>Una evangelización encabezada por Fray Martín de Valencia. Fue el primero en aprender la lengua autóctona y fue el encargado de escribir varias crónicas que se perdieron con el paso del tiempo. Fue el responsable de interpretar el “Códice 3 Coyote”, una tarea que le llevó más de 4 años, finalizando en 1533. No se tiene un registro exacto de su muerte o de su desaparición, aunque algunos dicen que pasó sus últimos días recluido en el colegio franciscano elaborando escritos que describían los usos y las costumbres aztecas. 
 							<?
 							}else
 							{
