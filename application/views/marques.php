@@ -36,7 +36,7 @@
 				</div>
 				<div class="col-9 text-center m-t-30">
 					<div class="btn btn-secondary text-2">
-						<small class="text-uppercase"><?= $textohead->T2?></small>
+						<a href="<?=base_URL('/reservacion/').$Idioma?>" class="text-white"><small class="text-uppercase"><?= $textohead->T2?></small></a>
 					</div>
 				</div>
 			</div>
