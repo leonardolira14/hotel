@@ -333,14 +333,7 @@
 							<?
 							}else{
 							?>
-Franciscan missionary from the region of Salamanca in Spain. Part of the
-group of the &quot;twelve apostles&quot; of Mexico who arrived in 1524. He was the
-second superior of the province of the Holy Gospel and guardian of the
-Convent of Mexico. Like Fray Francisco de Soto, he returned to Spain in
-defense of the rights of the indigenous people before King Carlos I, especially
-for the freedom of some escavos. He returned from Spain in the year 1529
-bringing a group of 20 religious of the same Franciscan order. He dies in the
-convent of San Francisco de México in 1553.
+Franciscan missionary from the Salamanca region of Spain. Part of the group of the "Twelve Apostles" of Mexico who arrived in 1524. He was the Second Superior of the province of the Holy Gospel and guardian of the Convent of Mexico. As Fray Francisco de Soto, he returned to Spain in defense of the rights of the indigenous people before King Carlos I, especially for the freedom of some slaves. He returned from Spain in the year 1529 bringing a group of 20 religious of the same Franciscan order. He dies in the convent of San Francisco de México in 1553.
 							<?
 							}	
 							?>
@@ -408,14 +401,10 @@ convent of San Francisco de México in 1553.
  <?
 							}else{
 							?>
-Spanish Missionary coming from the province of San Gsabriel, is the fourth in
-number of the first twelve apostles of New Spain. Once arriving in Mexico
-City, Fray Juan was elected as the first guardian of the convent of
-Huexotzingo, where he left a memory among the natives of much religion
-and sanctity. Once the area was evangelized, Captain Pánfilo de Narváez was
-going to conquer Florida and because of the zeal of the conversion of those
-people, it was in his company Brother Juan Sárez, taking Brother Juan de
-Palos as his companion, and there he died. hungry.
+Spanish missionary who comes from the province of San Gabriel, is the Fourth in number of the first “Twelve Apostles” of New Spain. Once arriving in Mexico City, Fray Juan was elected as the First Guardian of the convent of Huejotzingo, where he left a memory among the natives of much religion and sanctity.
+<p>
+Once the area was evangelized, Captain Pánfilo de Narváez was going to conquer Florida and by the zeal of the conversion of those people, it was in his company Fray Juan Suárez, taking his companion to Fray Juan de Palos, who died of hunger .
+
 							<?
 							}	
 							?>
@@ -483,18 +472,12 @@ Palos as his companion, and there he died. hungry.
 							<?
 							}else{
 							?>
-Ninth of the &quot;twelve apostles&quot;, a group of Franciscans who arrived in Mexico
-in 1524, originally a Franciscan from the province of San Gabriel, arriving in
-New Spain. His task was to create and be the guardian of the convent of
-Tlaxcala, a helper of the natives, defending the rights and the situation of
-poverty and slavery. He was a great preacher of the Indians in his Mexican
-language, showing in the sermons the desire for the salvation of their souls.
-On June 25, 1562 he dies in his right mind and praises the holy name of Jesus,
-kneeling on the earth and breasts on his bed. His tomb is in the same convent
-of Texcoco. He manages to write some writings in the native Mexican
-language as &quot;Christian doctrine or catechism&quot; &quot;Sunday sermons throughout
-the year&quot; Flos Sanctorum translated into the language &quot;and&quot; Questions and
-answers close to the Christian life &quot;.
+Ninth of the "twelve apostles", a group of Franciscans who arrived in Mexico in 1524, originally a Franciscan from the province of San Gabriel, arriving in New Spain. Their task was to create and be the guardian of the convent of Tlaxcala, a helper of the natives, defending the rights and the situation of poverty and slavery. He was a great preacher of the Indians in his Mexican language, showing in the sermons the desire for the salvation of their souls.
+<p>
+On June 25, 1562, he dies in his right mind and praises the most holy name of Jesus, kneeling on the earth and chest on his bed.
+<p>
+His tomb is in the same convent of Texcoco. He manages to do some writings in the native Mexican language as "Sermones dominicales de todo el año" “Flor Sanctorum” translated into the language and "Preguntas y respuestas cerca de la vida cristiana".
+
 							<?
 							}	
 							?>
@@ -565,16 +548,10 @@ answers close to the Christian life &quot;.
 							 <?
 							}else{
 							?>
-Born in Zamora, Spain, he joined the Franciscan Order at age 17 and traveled
-to Mexico in the group of the &quot;twelve apostles&quot; of New Spain in the year
-1524. From 1527 to 1529 he lives in Guatemala studying the foundation of
-the missions and later returns to the convent of Huexotzingo, sheltering the
-Indians against the abuses of Nuño de Guzmán and is accused of attempting
-the independence of New Spain, in the form of an indigenous State. In 1530,
-he passed to the convent of Tlaxcala and contributed to the founding of the
-City of Puebla de los Ángeles in 1531. In 1555 he wrote a famous letter to the
-emperor against Las Casas in defense of the Conquest. He lived the last years
-of his life in the capital where he died in 1565.
+Born in Zamora, Spain, he joined the Franciscan Order at age 17 and traveled to Mexico in the group of the "Twelve Apostles" of New Spain in the year 1524.
+From 1527 to 1529 he lived in Guatemala studying the founding of the missions and later returns to the convent of Huejotzingo, sheltering the Indians against the abuses of Nuño de Guzmán and is accused of attempting the independence of New Spain, in the form of an indigenous State.
+<p>
+In 1530, he went to the convent of Tlaxcala and contributed to the founding of the City of Puebla de los Ángeles in 1531. In 1555 he wrote a famous letter to the emperor against Las Casas in defense of the Conquest. He lived the last years of his life in the Capital, where he died in 1565.
 							<?
 							}	
 							?>

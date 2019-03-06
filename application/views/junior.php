@@ -302,14 +302,10 @@ if($Idioma==="es"){
 							}else
 							{
 								?>
-							A Spanish Franciscan who was part of the group
-of the 12 apostles who arrived in 1524 to New Spain. The promer apostol of
-the provinces that are now Michoacán and Jalisco. He was selected by Fray
-Martín de Valencia to be part of the 12 evangelizing travelers who would
-arrive in the new world. In 1525 he was sent to the region of Michoacán to
-baptize the Indians and in the city of Txintzitzan he built a convent in honor
-of the Holy Mother of the Virgin Mary. Later he traveled to the Jalisco region
-where he died in the convent of Pátzcuaro that he built.
+							He was a Spanish franciscan who lived in the 16th Century. It was one of the so-called "Twelve Apostles", a group of Franciscans who arrived in Mexico in 1524, before the capture of the capital and exercised their first tasks of evangelization among the Aztecs, it is said that they baptized more than one million Indians.
+							<p>
+							An evangelization headed by Fray Martín de Valencia. He was the first to learn the autochthonous language and was in charge of writing several chronicles that were lost with the passage of time. He was responsable for interpreting the "Codex 3 Coyote", a task that took him more than 4 years, ending in 1533. There is no exact record of his death or his disappearance, although some say he spent his last days confined to the Franciscan School elaborating writings that described Aztec customs and rites. 
+
 								<?
 							}
 							?>
@@ -372,16 +368,10 @@ where he died in the convent of Pátzcuaro that he built.
 							}else
 							{
 								?>
-								The eleventh of the &quot;twelve apostles&quot; who arrived in Mexico in 1524, which
-								was characterized by not seeking war, or wealth, power, nobility of lineage.
-								He promulgated by coming to New Spain to preach Christian law. <p>Originally
-								from the province of San Gabriel, he easily learned the Mexican language and
-								often preached to the indigenous people. He traveled through various parts
-								with the aim of evangelizing. He passed through Mexico, Michoacán and
-								Jalisco. There are not many details of this Frayle, however his remains are
-								stored in the main chapel of the convent of Izatlán in the province of Jalisco,
-								along with four other friars who died for those indigenous people who
-								resisted the religion.
+								The eleventh of the "Twelve Apostles" who arrived in Mexico in 1524, he was characterized by not seeking war, wealth, power, or nobility of lineage. Fray Andrés promulgated by coming to New Spain to preach the Christian Law.
+								<p>
+								Originally from the province of San Gabriel, he easily learned the Mexican language and often preached to the Indians. He traveled in various parts with the aim of evangelizing. He passed through Mexico, Michoacán and Jalisco. There are not many details of his life, however his remains are stored in the Main Chapel of the Convent of Izatlán in the province of Jalisco, along with four other Apostles who died for those indigenous who resisted the religion.
+
 								<?
 							}
 							?>
@@ -447,16 +437,10 @@ where he died in the convent of Pátzcuaro that he built.
 							}else
 							{
 								?>
-							Spanish Franciscan who lived in the sixteenth century. It was one of the so-
-							called &quot;twelve apostles&quot;, a group of Franciscans who arrived in Mexico in	1524, before the capture of the capital and exercised its first tasks of
-							evangelization among the Aztecs, it is said that baptized more than one
-							million Indians. An evangelization headed by Fray Martín de Valencia. He was
-							the first to learn the autochthonous language and was in charge of writing
-							several chronicles that were lost with the passage of time. He was
-							responsible for interpreting the &quot;Codex 3 Coyote&quot;, a task that took him more
-							than 4 years, ending in 1533. There is no exact record of his death or his
-							disappearance, although some say he spent his last days confined to the
-							Franciscan school. Elaborating writings that described the Aztec customs.
+							A Spanish franciscan who was part of the group of the “Twelve Apostles” who arrived in 1524 in New Spain. The First Apostle of the provinces that are now Michoacán and Jalisco. He was selected by Fray Martín de Valencia to be part of the twelve evangelizing travelers who would arrive in the New World.
+							<p>
+							In 1525, he was sent to the region of Michoacán to baptize the Indians and in the city of Tzintzuntzan he built a convent in honor of the Holy Mother of the Virgin Mary. Later he traveled to the Jalisco region where he died in the convent of Pátzcuaro that he built.
+
 								<?
 							}
 							?>

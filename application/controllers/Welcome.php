@@ -316,7 +316,7 @@ class Welcome extends CI_Controller {
 		$data["textohead"]=$this->Model_Menu->gettext($idioma);
 		$data["listarooms"]=$this->Model_Menu->Gettextlistrooms($idioma);
 		$data["textfooter"]=$this->Model_Menu->Gettextfooter($idioma);
-		$data["title"]="Hotel Marqués del Ángel | Recervaciones";
+		$data["title"]="Hotel Marqués del Ángel | Reservaciones";
 		$respuesta=clearallcart();
 		$this->load->view('master',$data);
 		$this->load->view('recervacion',$data);
@@ -331,7 +331,7 @@ class Welcome extends CI_Controller {
 		$data["textohead"]=$this->Model_Menu->gettext($idioma);
 		$data["listarooms"]=$this->Model_Menu->Gettextlistrooms($idioma);
 		$data["textfooter"]=$this->Model_Menu->Gettextfooter($idioma);
-		$data["title"]="Hotel Marqués del Ángel | Recervaciones";
+		$data["title"]="Hotel Marqués del Ángel | Reservaciones";
 		$this->load->view('master',$data);
 		$this->load->view('recervacion',$data);
 		$this->load->view('footer',$data);

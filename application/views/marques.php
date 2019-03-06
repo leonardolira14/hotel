@@ -295,18 +295,10 @@ Una personalidad clave en la historia de la conquista y evangelización de la Nu
 								<?	
 							}else{
 								?>
-								A key personality in the history of the conquest and evangelization of New
-Spain, he was the leader of the 12 apostles of Mexico. Belonging to the
-Franciscan order inition in the Convent of Mayorga in the Land of Fields. In
-1523 the Father General, Fray Francisco de los Angeles entrusted him with
-the twelve companions to evangelize the New World and on January 25,
-1524 they arrived in Puerto Rico and on May 13 they touched lands of San
-Juan de Ulúa in Veracruz. They undertook a trip to Tenochtitlan with the
-intention of bringing Christianity to this indigenous city. Considered one of
-the leading religious authorities in Mexico, he won the affection and
-admiration of the indigenous people for whom he had a special appreciation.
-For many considered as the authentic founder of the Catholic Church of New
-Spain.
+								A key personality in the History of the conquest and evangelization of New Spain, he was the leader of the “Twelve Apostles” of Mexico. Belonging to the Franciscan order, he began at the Convent of Mayorga in Tierra de Campos. In 1523 the General Friar, Fray Francisco de los Angeles entrusted him with the twelve companions to evangelize the New World and on January 25, 1524 they arrived in Puerto Rico and on May 13 they touched lands of San Juan de Ulúa in Veracruz. 
+<p>
+They undertook a trip to Tenochtitlán with the intention of bringing Christianity to this indigenous city.Considered one of the leading religious authorities in Mexico, he won the affection and admiration of the indigenous people for whom he had a special appreciation. For many considered as the authentic founder of the Catholic Church of New Spain.
+
 								<?	
 							}?>
 

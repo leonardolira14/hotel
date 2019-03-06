@@ -34,10 +34,10 @@
 			}else{
 				?>
 				<p>
-					<strong>A </strong>historical combination <strong>with our Mexican roots, seeks</strong> to generate a natural learning <strong> experience within the facilities of the Hotel, transporting to the time of the seventeenth century</strong>.
-A legacy of the Spaniards during the conquest was wine. In the Marquis you
-can taste in a perfect environment one of our wines from the hotel&#39;s cellar.
-However, the inheritance left us by the natives of Mexico was the Mezcal.
+					<strong>A </strong>historical combination <strong>with our Mexican roots, seeks </strong> to generate a natural learning <strong>experience within the facilities of the Hotel, transporting to the time of the 17th Century. </strong>
+<p>
+A legacy of the Spanish people during the conquest was the wine, in the Marques you can taste in a perfect atmosphere one of our wines from the Hotel's cellar. However, the inheritance left us by the natives of Mexico was the Mezcal.
+
 				</p>
 				<?
 			}
@@ -80,7 +80,7 @@ However, the inheritance left us by the natives of Mexico was the Mezcal.
 					<?
 						}else{
 							?>
-							<h4>Marques Bar</h4>
+							<h4>Marques Mezcalería & Wine Cellar</h4>
 							<?
 						}
 					?>

@@ -12,7 +12,7 @@
 			<?
 		}else{
 			?>
-				<h2>Marques Bar</h2>
+				<h2>Marques Mezcalería & Wine Cellar</h2>
 
 			<?
 		}
@@ -32,7 +32,7 @@
 			<?php 
 			}else{
 				?>
-				A legacy of the Spaniards during the conquest <strong> was wine</strong>. In the Marquis you can taste in a perfect environment<strong> one of our wines from the hotel</strong>;s cellar. However, another inheritance left to us by the natives of Mexico was <strong>the Mezcal</strong>. We have different mezcales of Puebla denomination, so you can taste them in the company of your friends or family.
+				A legacy of the Spanish people during the conquest <strong>was the wine </strong>, in the Marques you can taste in a perfect atmosphere <strong>one of our wines from the Hotel's cellar </strong>. However, another inheritance left to us by the natives of Mexico <strong>was the Mezcal </strong>. We have different mezcales wich were made in Puebla, so you can taste them in the company of your friends or family
 				<?
 			}
 			?>

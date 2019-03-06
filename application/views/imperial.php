@@ -307,17 +307,7 @@
 							Religioso franciscano que llegó a México con el grupo de los “doce apóstoles” que desembarcaron en San Juan de Ulúa Veracruz el 13 de Mayo de 1524, liderados por Fray Martín de Valencia. Gran parte de su trabajo en la Nueva España fue dedicado a los indígenas por quienes se preocupaba para que no les faltase la evangelización. Fue fundador del Colegio de la Santa Cruz, donde se les enseñaba a los indígenas, además de la religión y buenas costumbres, retórica, filosofía, música y medicina mexicana. En 1531 cooperó con la fundación de Puebla de los Ángeles en 1531 junto con Fray Toribio de Benavente y ambos pusieron el nombre de los Ángeles. En 1536 con deseos de regresar a Castilla para rendir cuentas al Emperador con las necesidades indígenas, enfermó gravemente y murió.
 						<? }else{
 							?>
-Religious granciscano who arrived in Mexico with the group of &quot;twelve
-apostles&quot; who disembarked in San Juan de Ulúa Veracruz on May 13, 1524,
-led by Fray Martín de Valencia. Much of his work in New Spain was dedicated
-to the indigenous people who he cared about so that evangelization would
-not be lacking. He was founder of the College of the Holy Cross, where they
-were taught to the indigenous
-as well as religion and good customs, rhetoric, philosophy, music and
-Mexican medicine. In 1531 he cooperated with the foundation of Puebla de
-los Ángeles in 1531 together with Fray Toribio de Benavente and both named
-after the Angels. In 1536 with desire to return to Castile to render an account
-to the Emperor with the Indian needs, he became seriously ill and died.
+Religious Franciscan who arrived in Mexico with the group of "twelve apostles" who disembarked in San Juan de Ulúa Veracruz on May 13, 1524, led by Fray Martín de Valencia. Much of his work in New Spain was dedicated to the indigenous people who he cared about so that evangelization would not be lacking. He was founder of the College of the Holy Cross, where they were taught to the Indians, in addition to religion and good customs, rhetoric, philosophy, music and Mexican medicine. In 1531 he cooperated with the foundation of Puebla de los Ángeles in 1531 together with Fray Toribio de Benavente and both named after the Angels. In 1536 with the desire to return to Castile to render an account to the Emperor with the Indian needs, he became seriously ill and died.
 							<? 
 						}
 							?>
@@ -382,16 +372,7 @@ to the Emperor with the Indian needs, he became seriously ill and died.
 							El segundo de los doce apóstoles que llegaron a la Nueva España en 1524, arribó a México siendo ya de una avanzada edad por lo que se le dificulto aprender las lenguas indígenas. Participó principalmente en la fundación de la provincia del Santo Evangelio el cual ocupó cargo varias veces de definidor provincial. Recorrió la provincia a pie y descalzo llevando el evangelio de cristo a indígenas y a españoles. Defensor de los indígenas y sus tierras del abuso de los propios conquistadores. En 1546 regresó a España para gestionar asuntos a favor de la defensa de los indígenas, prometió regresar a los indígenas y en 1550 llega nuevamente a México. En 1551 fallece en la ciudad de México.
 							<? }else{
 							?>
-							The second of the twelve apostles who arrived in New Spain in 1524, arrived
-in Mexico at an advanced age, making it difficult to learn the indigenous
-languages. He participated mainly in the founding of the province of the Holy
-Gospel, which held several positions as Provincial Definitor. He traveled the
-province on foot and barefoot, taking the gospel of Christ to Indians and
-Spaniards. Defender of the Indians and their lands from the abuse of the
-conquerors themselves. In 1546 he returned to Spain to manage matters in
-
-favor of the defense of the Indians, promised to return to the Indians, and in
-1550 he returned to Mexico. In 1551 he died in Mexico City.
+							The second of the twelve apostles who arrived in New Spain in 1524, arrived in Mexico at an advanced age, making it difficult to learn the indigenous languages. He participated mainly in the founding of the province of the Holy Gospel, which held several positions as Provincial Definitor. He toured the province on foot and barefoot bringing the gospel of Christ to Indians and Spaniards. Defender of the indigenous people and their lands from the abuse of the conquerors themselves. In 1546 he returned to Spain to manage matters in favor of the defense of the Indians, promised to return to the Indians, and in 1550 he returned to Mexico. In 1551 he died in Mexico City.
 							<? 
 							}
 							?>
