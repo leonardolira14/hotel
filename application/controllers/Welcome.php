@@ -171,7 +171,7 @@ class Welcome extends CI_Controller {
 		$data["textsuite"]=$this->Model_Menu->gettextclassic($idioma);
 		$data["listarooms"]=$this->Model_Menu->Gettextlistrooms($idioma);
 		$data["textfooter"]=$this->Model_Menu->Gettextfooter($idioma);
-		$data["title"]="Hotel Marqués del Ángel | Habitación Clasica  ";
+		$data["title"]="Hotel Marqués del Ángel | Suite Clasica  ";
 		$this->load->view('master',$data);
 		$this->load->view('clasica',$data);
 		$this->load->view('listhabitacion',$data);
@@ -231,7 +231,7 @@ class Welcome extends CI_Controller {
 		$data["textohead"]=$this->Model_Menu->gettext($idioma);
 		$data["listarooms"]=$this->Model_Menu->Gettextlistrooms($idioma);
 		$data["textfooter"]=$this->Model_Menu->Gettextfooter($idioma);
-		$data["title"]="Hotel Marqués del Ángel | Suite Precidencial";
+		$data["title"]="Hotel Marqués del Ángel | Suite Marqués";
 		$this->load->view('master',$data);
 		$this->load->view('marques',$data);
 		$this->load->view('listhabitacion',$data);
