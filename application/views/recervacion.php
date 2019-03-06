@@ -92,7 +92,7 @@
 					    </div>
 					 </div>
 					 <div class="form-group row">
-					    <label for="pais" class="col-sm-12 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==="es")?'Niños (Edad debajo 12 años)':'Children (Age under 12 Year)'?>:</strong></h5></label>
+					    <label for="pais" class="col-sm-12 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==="es")?'Niños (menores de 12 años)':'Children (Age under 12 Year)'?>:</strong></h5></label>
 					    <div class="col-sm-12">
 					      <select name="ninos"  class="form-control" >
 					    	<?php
