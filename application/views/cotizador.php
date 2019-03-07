@@ -53,7 +53,7 @@
 			 <div class="col-12 col-md-3 col-lg-3 col-xl-3 m-t-30">
 			    <label for="staticEmail2"  class="text-golden text-left"><h5>* Comentarios:</h5></label>
 			 </div>
-			  <div class="col-12 col-md-2 col-lg-2 col-xl-2 m-t-30">
+			  <div class="col-12 col-md-12 col-lg-12 col-xl-12 m-t-30">
 			    <textarea cols="5" name="comentarios" rows="10" class="form-control"></textarea>
 			 </div>
 			<div llc="envi" class="col-4 btn btn-secondary m-t-40 text-blue centrar">
