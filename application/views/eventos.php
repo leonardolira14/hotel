@@ -6,7 +6,7 @@
 <div class="container-fluid">
 	<div class="row d-flex justify-content-center m-t-70">
 		<div class="col-12 text-center titulos-habitaciones">
-			<h2>Eventos & Meetings</h2>
+			<h2>EVENTS & MEETINGS</h2>
 		</div>
 		<div class="col-8 col-md-3 col-lg-3 col-xl-3">
 			<img src="<?= base_URL()?>assets/img/ornamento_habitaciones-dorado.svg" class="img-fluid" alt="">
@@ -25,10 +25,10 @@
 			<?
 			}else{
 				?>
-				The events at the <strong>Hotel Boutique Marques del Angel</strong> are a <strong>unique and elegant experience</strong>, offering a wide variety of areas for <strong>social and business events. </strong>
+				The events at the Hotel Boutique Marques del Angel are a unique and elegant experience, offering a wide variety of areas for social and business events. 
 <br>
 				<br>
-From a <strong>private room</strong> with a capacity of 10 people, to our <strong>main room</strong> for 100 people. Offering personalized and specialized menus, assemblies and decoration for banquets, beautiful candy tables, SPA services, rooms for the couple and their families, <strong>as well as special rates for guests. </strong>
+From a private room with a 10 people capacity, to our main room for 100 people. Offering personalized and specialized menus, assemblies and decoration for banquets, beautiful candy tables, SPA services, rooms for the couple and their families, as well as special rates for guests.
 
 				<?
 			}

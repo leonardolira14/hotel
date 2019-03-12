@@ -20,7 +20,7 @@
 <div class="container-fluid fondo-reservaciones">
 <div class="container menu-resevaciones p-t-70">
 	<div class="row">
-		<div class="col-12 col-md-2 col-xl-2 col-lg-2 text-center m-t-20"><a class="active" href="<?= base_URL('/reservacion/').$Idioma?>">1.-<?=($Idioma==='es')?'Fecha de estadía':'Stay Details'?></a></div>
+		<div class="col-12 col-md-2 col-xl-2 col-lg-2 text-center m-t-20"><a class="active" href="<?= base_URL('/reservacion/').$Idioma?>">1.-<?=($Idioma==='es')?'Fecha de estadía':'Reservation Details'?></a></div>
 		<div class=" col-12 col-md-3 col-xl-3 col-lg-3 text-center m-t-20"><a class=""  href="<?= base_URL('listroom/'.$Idioma)?>">2.-<?=($Idioma==='es')?'Seleccionar habitación':'Select a Room'?></a></div>
 		<div class="col-12 col-md-4 col-xl-4 col-lg-4 text-center m-t-20"><a  href="<?= base_URL('detallesreserva/').$Idioma?>">3.-<?=($Idioma==='es')?'Detalles/agregar otras habitaciones':'Check Details/Add More Rooms'?></a></div>
 		<div class="col-12 col-md-3 col-xl-3 col-lg-3 text-center m-t-20"><a  href="<?= base_URL('confirmarreservacion/').$Idioma?>">4.-<?=($Idioma==='es')?'Confirmar reservación':'Confirm Reservation'?></a></div>
@@ -72,7 +72,7 @@
 		<div class="col-12 col-md-6 col-xl-6 col-lg-6">
 			<div class="row">
 				<div class="col-12 text-left">
-					<h5><strong class="text-golden text-2 text-uppercase"><?= ($Idioma==="es")?'Número de personas':'Number of Person(s)'?></strong></h5>
+					<h5><strong class="text-golden text-2 text-uppercase"><?= ($Idioma==="es")?'Número de personas':'Guest(s)'?></strong></h5>
 				</div>
 				<div class="col-12">
 					<div class="form-group row">
@@ -92,7 +92,7 @@
 					    </div>
 					 </div>
 					 <div class="form-group row">
-					    <label for="pais" class="col-sm-12 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==="es")?'Niños (menores de 12 años)':'Children (Age under 12 Year)'?>:</strong></h5></label>
+					    <label for="pais" class="col-sm-12 col-form-label"><h5><strong class="text-blue text-2"><?= ($Idioma==="es")?'Niños (menores de 12 años)':'Children (under 12)'?>:</strong></h5></label>
 					    <div class="col-sm-12">
 					      <select name="ninos"  class="form-control" >
 					    	<?php

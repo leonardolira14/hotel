@@ -44,7 +44,7 @@ if(count($cart->hotelogix->response->hotels)!==0){
 <div class="container-fluid fondo-reservaciones">
 	<div class="container menu-resevaciones p-t-70">
 		<div class="row">
-			<div class="col-12 col-md-2 col-xl-2 col-lg-2 text-center m-t-20"><a  href="<?= base_URL('/reservacion/').$idioma?>">1.-<?=($idioma==='es')?'Fecha de estadía':'Stay Details'?></a></div>
+			<div class="col-12 col-md-2 col-xl-2 col-lg-2 text-center m-t-20"><a  href="<?= base_URL('/reservacion/').$idioma?>">1.-<?=($idioma==='es')?'Fecha de estadía':'Reservation Details'?></a></div>
 			<div class=" col-12 col-md-3 col-xl-3 col-lg-3 text-center m-t-20"><a class=""  href="<?= base_URL('listroom/'.$Idioma)?>">2.-<?=($Idioma==='es')?'Seleccionar habitación':'Select a Room'?></a></div>
 			<div class="col-12 col-md-4 col-xl-4 col-lg-4 text-center m-t-20"><a class=""  href="<?= base_URL('detallesreserva/').$Idioma?>">3.-<?=($Idioma==='es')?'Detalles/agregar otras habitaciones':'Check Details/Add More Rooms'?></a></div>
 			<div class="col-12 col-md-3 col-xl-3 col-lg-3 text-center m-t-20"><a class="active" href="<?= base_URL('confirmarreservacion/').$Idioma?>">4.-<?=($Idioma==='es')?'Confirmar reservación':'Confirm Reservation'?></a></div>
@@ -88,7 +88,7 @@ if(count($cart->hotelogix->response->hotels)!==0){
 							<thead>
 								<th col="scope" class="text-2 text-blue">Package/Rate Detail</th>
 								<th col="scope" class="text-2 text-blue">Arrival-Departure</th>
-								<th col="scope" class="text-2 text-blue">Person(s)</th>
+								<th col="scope" class="text-2 text-blue">Guest(s)</th>
 								<th col="scope" class="text-2 text-blue text-center">Price</th>
 								<th col="scope" class="text-2 text-blue text-center">Tax(es)</th>
 								<th col="scope" class="text-2 text-blue text-center">Amount</th>
