@@ -25,10 +25,10 @@
 			<?
 			}else{
 				?>
-				The events at the Hotel Boutique Marques del Angel are a unique and elegant experience, offering a wide variety of areas for social and business events. 
+				The events at the Hotel Boutique Marques del Angel <strong>are a unique and elegant experience</strong>, offering a wide variety of areas for <strong>social and business events</strong>. 
 <br>
 				<br>
-From a private room with a 10 people capacity, to our main room for 100 people. Offering personalized and specialized menus, assemblies and decoration for banquets, beautiful candy tables, SPA services, rooms for the couple and their families, as well as special rates for guests.
+				From a <strong>private room</strong> with a 10 people capacity, to our <strong>main room</strong> for 100 people. Offering personalized and specialized menus, assemblies and decoration for banquets, beautiful candy tables, SPA services, rooms for the couple and their families, as well as <strong>special rates for guests</strong>.
 
 				<?
 			}

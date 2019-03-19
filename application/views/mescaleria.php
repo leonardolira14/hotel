@@ -32,7 +32,7 @@
 			<?php 
 			}else{
 				?>
-				A legacy of the Spanish people during the conquest <strong>was the wine </strong>, in the Marques you can taste in a perfect atmosphere <strong>one of our wines from the Hotel's cellar </strong>. However, another inheritance left to us by the natives of Mexico <strong>was the Mezcal </strong>. We have different mezcales wich were made in Puebla, so you can taste them in the company of your friends or family
+				A legacy of the <strong>Spanish people</strong> during the conquest was <strong>the wine</strong>. In the Marques you can taste in a perfect atmosphere one of our wines from the Hotel's cellar. In other hand, the inheritance left by the natives of <strong>Mexico</strong> was <strong>the Mezcal</strong>. We have different mezcales <strong>wich were made in Puebla</strong>, so you can taste them in the company of your friends or family.
 				<?
 			}
 			?>
