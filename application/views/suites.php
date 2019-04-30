@@ -1,6 +1,6 @@
 <div class="botton_fijo">
 <span><a href="<?= base_url('reservacion/').$Idioma?>" class="btn btn-secondary text-2 text-uppercase">
-							<small><?= ($Idioma==='es')?'Reserva Aquí !' : 'Reserve here' ?></small>
+							<small><?= ($Idioma==='es')?'¡Reserva<br><strong>Aqui</strong> !' : 'Reserve <br><strong>Here</strong>' ?></small>
 	</a></span>
 </div>
 <div class="container-fluid banner-sup ">
