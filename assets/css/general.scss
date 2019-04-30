@@ -546,3 +546,10 @@ table{
 	background: $colorrojo;
 	color:#fff;
 }
+
+.botton_fijo{
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+
+}

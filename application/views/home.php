@@ -1,3 +1,8 @@
+<div class="botton_fijo">
+<span><a href="<?= base_url('reservacion/').$Idioma?>" class="btn btn-secondary text-2 text-uppercase">
+							<small><?= ($Idioma==='es')?'Reserva Aqui!' : 'Reserve here' ?></small>
+	</a></span>
+</div>
 <?
 	if(isset($error)){
 		?>
